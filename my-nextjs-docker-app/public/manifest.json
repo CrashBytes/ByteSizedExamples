@@ -1,5 +1,5 @@
 {
-  "name": "Next.js Docker App",
+  "name": "CrashBytes - Next.js Docker App",
   "short_name": "Next Docker",
   "description": "A Next.js application with Docker integration",
   "start_url": "/",

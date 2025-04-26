@@ -6,7 +6,7 @@ export default function Navigation() {
     <nav className="bg-gray-800 text-white p-4">
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/" className="text-xl font-bold">
-          Next.js Docker
+          CrashBytes - Next.js Docker
         </Link>
         <div className="space-x-4">
           <Link href="/" className="hover:text-blue-300 transition-colors">

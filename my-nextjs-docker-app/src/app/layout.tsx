@@ -13,12 +13,22 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-// Force Next.js to use our favicon by setting it directly in metadata
 export const metadata: Metadata = {
   title: "Next.js Docker App",
   description: "A Next.js application with Docker integration",
   icons: {
-    icon: "/favicon.ico", // Direct reference to favicon
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png" }],
+    other: [
+      {
+        rel: "manifest",
+        url: "/manifest.json",
+      },
+    ],
   },
 };
 

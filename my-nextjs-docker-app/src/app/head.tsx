@@ -1,7 +1,7 @@
 export default function Head() {
   return (
     <>
-      <title>Next.js Docker App</title>
+      <title>CrashBytes - Next.js Docker App</title>
       <meta
         name="description"
         content="A Next.js application with Docker integration"
