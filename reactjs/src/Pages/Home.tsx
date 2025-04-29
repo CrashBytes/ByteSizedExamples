@@ -1,7 +1,7 @@
 // Home.tsx
 import React, { useState, useEffect } from "react";
-import { getArtistAlbumsByName, AlbumWithSongs } from "./api";
-import Albums from "./Albums";
+import { getArtistAlbumsByName, AlbumWithSongs } from "../networking/api";
+import Albums from "../components/Albums";
 
 const Home: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState("");

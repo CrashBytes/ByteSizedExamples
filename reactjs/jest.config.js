@@ -35,7 +35,12 @@ module.exports = {
       "ts-jest",
       {
         tsconfig: "tsconfig.json",
+        // Make sure ts-jest doesn't try to use ESM
+        useESM: false,
       },
     ],
   },
+
+  // Ensure Jest doesn't try to use ESM for these files
+  transformIgnorePatterns: ["node_modules/(?!(react-native|react-native-.*)/)"],
 };

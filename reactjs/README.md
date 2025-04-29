@@ -6,58 +6,97 @@ This project is an interview assessment tool designed to evaluate a candidate's 
 
 The application allows users to search for musical artists using the iTunes API and displays their albums and songs. The UI is simple and focused on functionality rather than design. The app has intentional flaws that a candidate would be expected to identify and potentially fix during an interview.
 
-## Interview Focus Areas
-
-This tool is designed to test a candidate's ability to:
-
-1. **Understand existing code** - Candidates should be able to navigate the codebase and understand how components interact
-2. **Identify performance issues** - The search functionality has no debouncing, causing unnecessary API calls
-3. **Troubleshoot broken functionality** - The album artwork doesn't display due to an intentional typo in the URL
-4. **Write and understand tests** - Test coverage is set up and some tests are implemented, with others stubbed out
-
-## Interview Questions/Tasks
-
-Here are some suggested questions or tasks to give candidates:
-
-1. "Take a few minutes to explore the codebase and explain how the components work together."
-2. "The search functionality works, but it's making too many API calls. How would you improve it?"
-3. "Users have reported that the album artwork isn't showing. Can you identify and fix the issue?"
-4. "The test coverage for the Albums component is incomplete. Can you implement one of the stubbed tests?"
-5. "If you were to enhance this application, what would you add or improve?"
-
-## Key Implementation Details
-
-- **Network Calls**: The API calls in `api.ts` are intentionally inefficient to give candidates an opportunity to optimize
-- **Image Loading**: The Album component has a flawed image URL construction, causing images to fail to load
-- **Debouncing**: The Home component has no debouncing on the search input
-- **Test Coverage**: Jest is configured to measure test coverage, with some tests implemented and others stubbed
-
-## Setup for Interviewers
+## Getting Started
 
 1. Clone this repository
-2. Run `npm install` to install dependencies
-3. Run `npm start` to start the development server
-4. Run `npm test` to run the tests and see coverage report
+2. Install dependencies:
+   ```bash
+   yarn install
+   ```
+3. Run the tests:
+   ```bash
+   yarn test
+   ```
+4. Start the development server:
+   ```bash
+   yarn start
+   ```
 
-## Evaluating Candidates
+## Instructions for Candidates
 
-Look for:
+### Your Task
 
-- How quickly they identify the issues
-- The quality of their solutions
-- Their approach to testing
-- How well they communicate their understanding and ideas
-- Any additional improvements they suggest beyond fixing the obvious issues
+You are presented with a React application that allows users to search for artists on iTunes and view their albums and songs. The application has several issues that need to be identified and fixed. Your task is to:
+
+1. **Understand the codebase**: Familiarize yourself with the project structure and how the components interact.
+2. **Identify performance issues**: The search functionality has no debouncing, causing unnecessary API calls.
+3. **Fix image loading**: Album artwork fails to load properly - identify why and implement a fix.
+4. **Enhance test coverage**: Several test cases are marked as "todo" - implement at least one of them.
+5. **Improve API testing**: The networking layer has low test coverage - enhance it using the provided mock data.
+
+### Key Components
+
+- **Home.tsx**: Main search component that manages state and API calls
+- **Albums.tsx**: Component that displays a list of albums
+- **Album.tsx**: Component for displaying an individual album with tracks
+- **api.ts**: API functions for interacting with the iTunes API
+
+### Known Issues (for your reference)
+
+1. **Performance**: The search input triggers an API call on every keystroke without debouncing
+2. **Image Loading**: Album artwork doesn't display correctly
+3. **Test Coverage**: The API functions need more thorough testing
+4. **Optional Enhancements**: You may suggest additional improvements such as loading states, error handling, or UI enhancements
+
+### Testing Resources
+
+The project includes mock API responses to help with testing:
+
+- **mockApiResponses.ts**: Contains realistic mock data for artists, albums, and songs
+- **HomeWithMocks.test.tsx**: Example of how to use the mock responses in tests
+
+You can use these resources to implement the missing tests and verify your fixes.
+
+## Evaluation Criteria
+
+You will be evaluated on:
+
+1. **Code comprehension**: How quickly you understand the codebase
+2. **Problem-solving**: Your approach to identifying and fixing issues
+3. **Testing**: Your ability to write meaningful tests
+4. **Communication**: How clearly you explain your thought process and solutions
+5. **Code quality**: The clarity, maintainability, and organization of your code
+
+## Tips for Success
+
+- Start by running the application and exploring its functionality
+- Look for console errors and unexpected behavior
+- Use the test suite to understand component behavior
+- Think about how debouncing could be implemented for search optimization
+- Examine the image URL construction in the Album component
+- Consider how the application handles edge cases like empty results or errors
+- Be prepared to explain your reasoning for each fix or enhancement
 
 ## Project Structure
 
-- `api.ts` - Network functions for iTunes API
-- `Home.tsx` - Main search component (missing debouncing)
-- `Albums.tsx` - Component to display a list of albums
-- `Album.tsx` - Component for individual albums (has image loading issue)
-- Test files for each component
-- Jest configuration for test coverage
+```
+reactjs/
+├── src/
+│   ├── components/
+│   │   ├── Album.tsx
+│   │   ├── Album.test.tsx
+│   │   ├── Albums.tsx
+│   │   └── Albums.test.tsx
+│   ├── Pages/
+│   │   ├── Home.tsx
+│   │   └── Home.test.tsx
+│   └── networking/
+│       └── api.ts
+├── mockApiResponses.ts
+├── HomeWithMocks.test.tsx
+├── jest.config.js
+├── jest.setup.js
+└── package.json
+```
 
-## Recommended Interview Duration
-
-45-60 minutes should be sufficient for candidates to explore the code, identify issues, and implement some solutions.
+Good luck! We're looking forward to seeing your solutions and hearing your thoughts on improving this application.
