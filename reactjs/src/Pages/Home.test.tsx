@@ -1,11 +1,10 @@
-// Home.test.tsx
 import React from "react";
 import { render, screen, fireEvent, waitFor } from "@testing-library/react";
 import Home from "./Home";
-import * as api from "./api";
+import * as api from "../networking/api";
 
 // Mock the API module
-jest.mock("./api");
+jest.mock("../networking/api");
 const mockedApi = api as jest.Mocked<typeof api>;
 
 describe("Home Component", () => {

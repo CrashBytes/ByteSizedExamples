@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Next.js Docker App",
+  title: "CrashBytes - Next.js Docker App",
   description: "A Next.js application with Docker integration",
   icons: {
     icon: [

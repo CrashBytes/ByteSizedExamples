@@ -1,8 +1,7 @@
-// Albums.test.tsx
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import Albums from "./Albums";
-import { AlbumWithSongs } from "./api";
+import { AlbumWithSongs } from "../networking/api";
 
 describe("Albums Component", () => {
   const mockAlbums: AlbumWithSongs[] = [
