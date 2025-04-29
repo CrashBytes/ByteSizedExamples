@@ -1,1 +1,54 @@
-node_modules
+# dependencies
+node_modules/
+**/node_modules/
+/.pnp
+.pnp.js
+
+# testing
+coverage/
+**/coverage/
+coverage-*
+**/coverage-*
+.coverage
+**/.coverage
+/jest-coverage
+**/jest-coverage
+.nyc_output
+**/.nyc_output
+lcov-report
+**/lcov-report
+.coveralls.yml
+reports/
+**/reports/
+
+# production
+/build
+/dist
+**/build
+**/dist
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
