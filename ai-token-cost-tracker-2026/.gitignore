@@ -1,0 +1,96 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# ============================================
+# TUTORIAL NOTE: These are committed for you
+# ============================================
+# The following files ARE in the repository
+# to help you complete the tutorial:
+#
+# ✅ package-lock.json  - Ensures exact versions
+# ✅ jest.config.js     - Test configuration  
+# ✅ __tests__/         - Complete test suite
+# ✅ __mocks__/         - Test mocks
+# ✅ TEST_COVERAGE.md   - Testing guide
+#
+# You'll generate these locally (ignored):
+# - node_modules/       - npm install output
+# - coverage/           - npm test output
+# - dist/               - npm run build output
+# ============================================
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Packaged extensions
+*.zip
+*.crx
+*.pem
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Caches
+.cache/
+.eslintcache
+.parcel-cache/
+.npm/
+
+# Temporary files
+*.tmp
+.tmp/
+
+# Tutorial-specific: User-generated files
+notes.md
+TODO.md
+scratch.md
+NOTES.txt
+*.draft
+*.local.md
+
+# Tutorial-specific: User testing data
+test-data/
+sample-data/
+my-*/
+
+# Tutorial-specific: User screenshots/recordings
+screenshots/
+recordings/
+demo-videos/
+
+# Tutorial-specific: Rollup cache
+.rollup.cache/
+
+# Tutorial-specific: Personal config overrides
+*.local.js
+*.override.js
+config.local.json
+
+# Tutorial-specific: Debug outputs
+debug/
+debug-*.json
+*.debug.log

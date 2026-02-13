@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <linearGradient id="cbGrad16" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb"/>
+      <stop offset="50%" style="stop-color:#7c3aed"/>
+      <stop offset="100%" style="stop-color:#db2777"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- CrashBytes Background -->
+  <rect width="16" height="16" rx="3.018867924528302" fill="url(#cbGrad16)"/>
+  
+  <!-- CrashBytes "C" -->
+  <path d="M 11 8 
+                 A 4 4 0 0 1 7 12 
+                 A 4 4 0 0 1 3 8 
+                 A 4 4 0 0 1 7 4" 
+        fill="none" 
+        stroke="white" 
+        stroke-width="1.8" 
+        stroke-linecap="round"
+        opacity="0.9"/>
+  
+  <!-- Dollar Sign (Cost Indicator) -->
+  <text x="50%" y="9.28" 
+        dominant-baseline="middle" 
+        text-anchor="middle" 
+        font-family="Arial, sans-serif" 
+        font-size="6.4" 
+        font-weight="bold" 
+        fill="white"
+        opacity="0.95">$</text>
+  
+  <!-- Byte/AI Dots -->
+  <circle cx="12.48" cy="5.44" r="0.8" fill="white" opacity="0.8"/>
+  <circle cx="12.48" cy="8" r="0.8" fill="white" opacity="0.8"/>
+  <circle cx="12.48" cy="10.56" r="0.8" fill="white" opacity="0.8"/>
+</svg>

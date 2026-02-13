@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="cbGrad128" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb"/>
+      <stop offset="50%" style="stop-color:#7c3aed"/>
+      <stop offset="100%" style="stop-color:#db2777"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- CrashBytes Background -->
+  <rect width="128" height="128" rx="24.150943396226417" fill="url(#cbGrad128)"/>
+  
+  <!-- CrashBytes "C" -->
+  <path d="M 88 64 
+                 A 32 32 0 0 1 56 96 
+                 A 32 32 0 0 1 24 64 
+                 A 32 32 0 0 1 56 32" 
+        fill="none" 
+        stroke="white" 
+        stroke-width="14.382022471910112" 
+        stroke-linecap="round"
+        opacity="0.9"/>
+  
+  <!-- Dollar Sign (Cost Indicator) -->
+  <text x="50%" y="74.24" 
+        dominant-baseline="middle" 
+        text-anchor="middle" 
+        font-family="Arial, sans-serif" 
+        font-size="51.2" 
+        font-weight="bold" 
+        fill="white"
+        opacity="0.95">$</text>
+  
+  <!-- Byte/AI Dots -->
+  <circle cx="99.84" cy="43.52" r="6.4" fill="white" opacity="0.8"/>
+  <circle cx="99.84" cy="64" r="6.4" fill="white" opacity="0.8"/>
+  <circle cx="99.84" cy="84.48" r="6.4" fill="white" opacity="0.8"/>
+</svg>

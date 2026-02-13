@@ -1,0 +1,20 @@
+{
+  "welcome": "Bienvenue à",
+  "clientInfo": "Informations Client",
+  "clientName": "Client",
+  "version": "Version",
+  "scheme": "Schéma d'URL",
+  "locale": "Paramètres Régionaux",
+  "brandColors": "Couleurs de Marque",
+  "features": "Fonctionnalités",
+  "configuration": "Configuration",
+  "apiUrl": "URL de l'API",
+  "supportEmail": "Email de Support",
+  "primary": "Primaire",
+  "secondary": "Secondaire",
+  "accent": "Accent",
+  "background": "Arrière-plan",
+  "text": "Texte",
+  "error": "Erreur",
+  "success": "Succès"
+}

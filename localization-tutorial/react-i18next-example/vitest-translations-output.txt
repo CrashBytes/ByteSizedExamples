@@ -1,0 +1,73 @@
+
+ RUN  v1.6.1 /Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example
+
+stderr | src/locales/translations.test.ts > Translation Files Validation > Translation Completeness > es-ES translations > has no extra keys not in base language
+es-ES has extra keys: [ 'product.lowStock', 'product.inStock' ]
+
+stderr | src/locales/translations.test.ts > Translation Files Validation > Translation Completeness > fr-FR translations > has no extra keys not in base language
+fr-FR has extra keys: [ 'product.lowStock', 'product.inStock' ]
+
+stderr | src/locales/translations.test.ts > Translation Files Validation > Translation Completeness > de-DE translations > has no extra keys not in base language
+de-DE has extra keys: [ 'product.lowStock', 'product.inStock' ]
+
+stderr | src/locales/translations.test.ts > Translation Files Validation > Translation Completeness > ja-JP translations > has no extra keys not in base language
+ja-JP has extra keys: [ 'product.lowStock', 'product.inStock' ]
+
+stderr | src/locales/translations.test.ts > Translation Files Validation > Translation Quality > no translations contain placeholder text
+Found placeholder issues in es-ES: [
+  'es-ES:footer.copyright contains placeholder: "© {{year}} TuEmpresa. Todos los derechos reservados."'
+]
+
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Translation Completeness > base language (en-US) has all required keys
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Translation Completeness > es-ES translations > has all keys from base language
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Translation Completeness > es-ES translations > has no extra keys not in base language
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Translation Completeness > es-ES translations > has no empty translation values
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Translation Completeness > fr-FR translations > has all keys from base language
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Translation Completeness > fr-FR translations > has no extra keys not in base language
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Translation Completeness > fr-FR translations > has no empty translation values
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Translation Completeness > de-DE translations > has all keys from base language
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Translation Completeness > de-DE translations > has no extra keys not in base language
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Translation Completeness > de-DE translations > has no empty translation values
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Translation Completeness > ja-JP translations > has all keys from base language
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Translation Completeness > ja-JP translations > has no extra keys not in base language
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Translation Completeness > ja-JP translations > has no empty translation values
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Translation Structure > all translation files have the same structure
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Translation Structure > all namespaces exist in all languages
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Interpolation Variables > all languages use the same interpolation variables
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Pluralization Keys > plural keys are consistent across languages
+ × src/locales/translations.test.ts > Translation Files Validation > Translation Quality > no translations contain placeholder text
+   → expected [ Array(1) ] to have a length of +0 but got 1
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Translation Quality > translations are not identical to base language
+ ✓ src/locales/translations.test.ts > Translation Files Validation > JSON Validity > en-US is valid JSON
+ ✓ src/locales/translations.test.ts > Translation Files Validation > JSON Validity > es-ES is valid JSON
+ ✓ src/locales/translations.test.ts > Translation Files Validation > JSON Validity > fr-FR is valid JSON
+ ✓ src/locales/translations.test.ts > Translation Files Validation > JSON Validity > de-DE is valid JSON
+ ✓ src/locales/translations.test.ts > Translation Files Validation > JSON Validity > ja-JP is valid JSON
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/locales/translations.test.ts > Translation Files Validation > Translation Quality > no translations contain placeholder text
+AssertionError: expected [ Array(1) ] to have a length of +0 but got 1
+
+- Expected
++ Received
+
+- 0
++ 1
+
+ ❯ src/locales/translations.test.ts:238:24
+    236|           console.warn(`Found placeholder issues in ${locale}:`, issue…
+    237|         }
+    238|         expect(issues).toHaveLength(0);
+       |                        ^
+    239|       });
+    240|     });
+ ❯ src/locales/translations.test.ts:233:36
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 23 passed (24)
+   Start at  17:01:30
+   Duration  386ms (transform 30ms, setup 77ms, collect 26ms, tests 11ms, environment 135ms, prepare 48ms)
+

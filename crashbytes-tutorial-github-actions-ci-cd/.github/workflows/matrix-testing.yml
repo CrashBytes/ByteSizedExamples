@@ -1,0 +1,53 @@
+name: Matrix Testing
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test-matrix:
+    name: Test on Node ${{ matrix.node }} / ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    
+    strategy:
+      fail-fast: false
+      matrix:
+        node: [18, 20, 22]
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        exclude:
+          - node: 18
+            os: macos-latest
+        include:
+          - node: 20
+            os: ubuntu-latest
+            coverage: true
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js ${{ matrix.node }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Run tests
+        run: npm test
+      
+      - name: Run coverage
+        if: matrix.coverage
+        run: npm run test:coverage
+      
+      - name: Upload coverage
+        if: matrix.coverage
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-matrix
+          path: coverage/
+          retention-days: 7

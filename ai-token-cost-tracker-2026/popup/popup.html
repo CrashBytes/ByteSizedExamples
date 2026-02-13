@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>AI Token Cost Tracker</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>AI Cost Tracker</h1>
+      <div id="totalCost" class="total-cost">$0.00</div>
+    </header>
+
+    <section class="stats">
+      <div class="stat-card">
+        <div class="stat-label">Today</div>
+        <div id="dailyTotal" class="stat-value">$0.00</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">This Week</div>
+        <div id="weeklyTotal" class="stat-value">$0.00</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">This Month</div>
+        <div id="monthlyTotal" class="stat-value">$0.00</div>
+      </div>
+    </section>
+
+    <section class="provider-breakdown">
+      <h2>Provider Breakdown</h2>
+      <div id="providerList"></div>
+    </section>
+
+    <section class="recent-calls">
+      <h2>Recent API Calls</h2>
+      <div id="callsList"></div>
+    </section>
+
+    <footer>
+      <button id="viewDetails">View Detailed Report</button>
+      <button id="resetDaily">Reset Daily Total</button>
+    </footer>
+  </div>
+  <script src="popup.js" type="module"></script>
+</body>
+</html>

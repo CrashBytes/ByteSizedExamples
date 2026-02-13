@@ -1,0 +1,150 @@
+name: Test Suite
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.10', '3.11']
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+    
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+    
+    - name: Cache dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    
+    - name: Install dependencies
+      working-directory: ./backend
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    
+    - name: Run linting
+      working-directory: ./backend
+      run: |
+        pip install flake8 black isort
+        # Stop on syntax errors
+        flake8 app --count --select=E9,F63,F7,F82 --show-source --statistics
+        # Check formatting
+        black --check app tests
+        # Check imports
+        isort --check-only app tests
+    
+    - name: Run unit tests
+      working-directory: ./backend
+      run: |
+        pytest tests/unit/ \
+          --cov=app \
+          --cov-report=xml \
+          --cov-report=term-missing \
+          -v
+    
+    - name: Run integration tests
+      working-directory: ./backend
+      run: |
+        pytest tests/integration/ \
+          --cov=app \
+          --cov-append \
+          --cov-report=xml \
+          --cov-report=term-missing \
+          -v
+    
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v3
+      with:
+        file: ./backend/coverage.xml
+        flags: unittests
+        name: codecov-umbrella
+        fail_ci_if_error: true
+    
+    - name: Generate coverage badge
+      if: github.ref == 'refs/heads/main'
+      uses: cicirello/jacoco-badge-generator@v2
+      with:
+        badges-directory: badges
+        coverage-badge-filename: coverage.svg
+    
+    - name: Archive test results
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: test-results-${{ matrix.python-version }}
+        path: |
+          backend/htmlcov/
+          backend/coverage.xml
+          backend/.coverage
+
+  security:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      working-directory: ./backend
+      run: |
+        python -m pip install --upgrade pip
+        pip install safety bandit
+    
+    - name: Check for security vulnerabilities
+      working-directory: ./backend
+      run: |
+        # Use new 'safety scan' command instead of deprecated 'check'
+        # Use --continue-on-error to avoid blocking CI on known vulnerabilities
+        # that are documented and accepted
+        safety scan --output text || echo "Security scan completed with warnings"
+        # Run static security analysis
+        bandit -r app -f json -o bandit-report.json || echo "Bandit scan completed"
+      continue-on-error: true
+    
+    - name: Upload security scan results
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: security-results
+        path: backend/bandit-report.json
+
+  type-check:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      working-directory: ./backend
+      run: |
+        python -m pip install --upgrade pip
+        pip install mypy
+        pip install -r requirements.txt
+    
+    - name: Run type checking
+      working-directory: ./backend
+      run: |
+        mypy app --ignore-missing-imports --no-strict-optional

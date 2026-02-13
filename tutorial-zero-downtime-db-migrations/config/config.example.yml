@@ -1,0 +1,117 @@
+# Zero-Downtime Database Migration Configuration
+
+# Database Connection Settings
+databases:
+  blue:
+    host: localhost
+    port: 5432
+    database: blue_db
+    user: postgres
+    password: postgres
+    # Connection pool settings
+    min_connections: 2
+    max_connections: 10
+    
+  green:
+    host: localhost
+    port: 5433
+    database: green_db
+    user: postgres
+    password: postgres
+    # Connection pool settings
+    min_connections: 2
+    max_connections: 10
+
+# Migration Settings
+migration:
+  # Batch size for data synchronization
+  batch_size: 1000
+  
+  # Sync interval in seconds
+  sync_interval: 1
+  
+  # Maximum acceptable replication lag in seconds
+  max_replication_lag: 5.0
+  
+  # Timeout for cutover process in seconds
+  cutover_timeout: 300
+  
+  # Enable automatic rollback on errors
+  auto_rollback: true
+  
+  # Tables to exclude from synchronization
+  excluded_tables:
+    - schema_version
+    - audit_log
+
+# Monitoring Settings
+monitoring:
+  # Enable Prometheus metrics
+  enable_metrics: true
+  
+  # Prometheus metrics port
+  prometheus_port: 9090
+  
+  # Health check interval in seconds
+  health_check_interval: 10
+  
+  # Alert thresholds
+  alerts:
+    replication_lag_warning: 2.0
+    replication_lag_critical: 5.0
+    consistency_check_failure: true
+
+# Logging Settings
+logging:
+  level: INFO  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  
+  # Log to file
+  file:
+    enabled: true
+    path: ./logs/migration.log
+    max_bytes: 10485760  # 10MB
+    backup_count: 5
+  
+  # Log to console
+  console:
+    enabled: true
+    colored: true
+
+# Replication Settings
+replication:
+  # Replication method: logical, trigger, or external
+  method: logical
+  
+  # Logical replication settings
+  logical:
+    publication_name: migration_pub
+    subscription_name: migration_sub
+    
+  # Conflict resolution strategy
+  conflict_resolution: last_write_wins
+
+# Safety Settings
+safety:
+  # Require explicit confirmation for destructive operations
+  require_confirmation: true
+  
+  # Enable dry-run mode by default
+  dry_run_default: false
+  
+  # Create backups before migrations
+  auto_backup: true
+  
+  # Backup retention in days
+  backup_retention_days: 7
+
+# Performance Settings
+performance:
+  # Parallel sync workers
+  sync_workers: 4
+  
+  # Enable query optimization
+  optimize_queries: true
+  
+  # Connection timeout in seconds
+  connection_timeout: 30

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>AI Token Cost Tracker - Detailed Report</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <h1>🤖 AI Token Cost Tracker</h1>
+      <p class="subtitle">Detailed Analytics & Reports</p>
+    </header>
+
+    <!-- Summary Cards -->
+    <section class="summary-cards">
+      <div class="card">
+        <div class="card-label">Today</div>
+        <div id="todayTotal" class="card-value">$0.00</div>
+        <div id="todayCalls" class="card-detail">0 calls</div>
+      </div>
+      <div class="card">
+        <div class="card-label">This Week</div>
+        <div id="weekTotal" class="card-value">$0.00</div>
+        <div id="weekCalls" class="card-detail">0 calls</div>
+      </div>
+      <div class="card">
+        <div class="card-label">This Month</div>
+        <div id="monthTotal" class="card-value">$0.00</div>
+        <div id="monthCalls" class="card-detail">0 calls</div>
+      </div>
+      <div class="card">
+        <div class="card-label">All Time</div>
+        <div id="allTimeTotal" class="card-value">$0.00</div>
+        <div id="allTimeCalls" class="card-detail">0 calls</div>
+      </div>
+    </section>
+
+    <!-- Charts Section -->
+    <section class="charts-section">
+      <div class="chart-container">
+        <h2>📈 Cost Trend (Last 30 Days)</h2>
+        <canvas id="costChart"></canvas>
+      </div>
+      
+      <div class="chart-container">
+        <h2>🎯 Provider Breakdown</h2>
+        <canvas id="providerChart"></canvas>
+      </div>
+    </section>
+
+    <!-- Provider Details Table -->
+    <section class="provider-details">
+      <h2>📊 Provider Details</h2>
+      <table id="providerTable">
+        <thead>
+          <tr>
+            <th>Provider</th>
+            <th>Total Cost</th>
+            <th>API Calls</th>
+            <th>Avg Cost/Call</th>
+            <th>Total Tokens</th>
+          </tr>
+        </thead>
+        <tbody id="providerTableBody">
+          <tr>
+            <td colspan="5" class="empty">No data available</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Recent Calls Table -->
+    <section class="recent-calls-section">
+      <h2>📋 Recent API Calls</h2>
+      <div class="controls">
+        <select id="filterProvider">
+          <option value="all">All Providers</option>
+          <option value="openai">OpenAI</option>
+          <option value="anthropic">Anthropic</option>
+          <option value="google">Google</option>
+        </select>
+        <select id="filterDays">
+          <option value="1">Today</option>
+          <option value="7">Last 7 Days</option>
+          <option value="30">Last 30 Days</option>
+          <option value="90">Last 90 Days</option>
+        </select>
+        <button id="exportCSV">Export CSV</button>
+      </div>
+      
+      <div class="table-wrapper">
+        <table id="callsTable">
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Provider</th>
+              <th>Model</th>
+              <th>Input Tokens</th>
+              <th>Output Tokens</th>
+              <th>Total Tokens</th>
+              <th>Cost</th>
+            </tr>
+          </thead>
+          <tbody id="callsTableBody">
+            <tr>
+              <td colspan="7" class="empty">No calls found</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Settings Section -->
+    <section class="settings-section">
+      <h2>⚙️ Settings</h2>
+      
+      <div class="setting-group">
+        <label>
+          <input type="checkbox" id="notificationsEnabled">
+          Enable cost notifications
+        </label>
+        <p class="setting-description">Get notified when daily costs exceed threshold</p>
+      </div>
+
+      <div class="setting-group">
+        <label for="notificationThreshold">Daily cost threshold ($)</label>
+        <input type="number" id="notificationThreshold" min="0" step="0.01" value="10.00">
+      </div>
+
+      <div class="setting-group">
+        <label>
+          <input type="checkbox" id="badgeEnabled" checked>
+          Show cost in extension badge
+        </label>
+        <p class="setting-description">Display today's cost on the extension icon</p>
+      </div>
+
+      <div class="setting-actions">
+        <button id="saveSettings" class="btn-primary">Save Settings</button>
+        <button id="resetSettings" class="btn-secondary">Reset to Defaults</button>
+      </div>
+    </section>
+
+    <!-- Data Management -->
+    <section class="data-management">
+      <h2>🗃️ Data Management</h2>
+      
+      <div class="data-actions">
+        <button id="exportAllData" class="btn-primary">Export All Data (JSON)</button>
+        <button id="clearOldData" class="btn-secondary">Clear Data Older Than 90 Days</button>
+        <button id="clearAllData" class="btn-danger">Clear All Data</button>
+      </div>
+
+      <p class="data-info">
+        💾 Data is stored locally in your browser and never sent to external servers.
+      </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>AI Token Cost Tracker v1.0.0</p>
+      <p>Track your AI API usage in real-time</p>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="options.js" type="module"></script>
+</body>
+</html>

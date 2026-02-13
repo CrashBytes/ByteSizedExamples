@@ -1,0 +1,64 @@
+# Training Configuration for Distributed Learning
+
+# Model Configuration
+model:
+  architecture: "resnet50"
+  num_classes: 1000
+  pretrained: false
+  
+# Dataset Configuration
+data:
+  dataset_name: "imagenet"
+  train_dir: "/data/imagenet/train"
+  val_dir: "/data/imagenet/val"
+  num_workers: 4
+  pin_memory: true
+  
+# Training Hyperparameters
+training:
+  epochs: 90
+  batch_size: 128  # Per GPU
+  base_lr: 0.1     # Will scale with number of GPUs
+  momentum: 0.9
+  weight_decay: 0.0001
+  
+  # Learning rate schedule
+  lr_schedule:
+    type: "multistep"
+    milestones: [30, 60, 80]
+    gamma: 0.1
+    warmup_epochs: 5
+    
+  # Gradient clipping
+  gradient_clip:
+    enabled: true
+    max_norm: 5.0
+    
+# Distributed Training
+distributed:
+  backend: "nccl"
+  fp16: true  # Mixed precision training
+  gradient_compression:
+    enabled: false
+    compression_type: "fp16"  # or "threshold", "topk"
+  
+# Checkpointing
+checkpoint:
+  save_dir: "./checkpoints"
+  save_frequency: 5  # epochs
+  keep_last_n: 3
+  resume_from: null  # Path to checkpoint to resume from
+  
+# Logging and Monitoring
+logging:
+  log_dir: "./logs"
+  mlflow_tracking_uri: "http://localhost:5000"
+  experiment_name: "distributed_training"
+  tensorboard: true
+  log_frequency: 100  # steps
+  
+# Performance Tuning
+performance:
+  persistent_workers: true
+  prefetch_factor: 2
+  cuda_benchmark: true

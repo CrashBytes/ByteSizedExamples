@@ -1,0 +1,244 @@
+{
+  "languageSwitcher": {
+    "label": "Select language",
+    "currentLanguage": "Current language"
+  },
+  "product": {
+    "outOfStock": "Out of stock",
+    "lowStock_one": "Only {{count}} item left",
+    "lowStock_other": "Only {{count}} items left",
+    "inStock_one": "{{count}} item in stock",
+    "inStock_other": "{{count}} items in stock",
+    "addToCart": "Add to cart",
+    "notifyMe": "Notify me when back in stock",
+    "stockAvailability": "Stock availability"
+  },
+  "search": {
+    "label": "Search",
+    "placeholder": "Search products...",
+    "button": "Search",
+    "searching": "Searching...",
+    "clear": "Clear",
+    "resultsFound_one": "{{count}} result found",
+    "resultsFound_other": "{{count}} results found",
+    "noResults": "No results found"
+  },
+  "common": {
+    "search": "Search",
+    "searching": "Searching...",
+    "resultsFound": "{{count}} results found",
+    "noResults": "No results found",
+    "selectLanguage": "Select language",
+    "currentLanguage": "Current Language",
+    "languageSwitcherHelp": "Use the dropdown to switch languages. You can also use the toolbar at the top to change the global locale."
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "login": "Log In",
+    "signup": "Sign Up"
+  },
+  "hero": {
+    "title": "Build Better Software, Faster",
+    "subtitle": "The all-in-one platform for modern development teams",
+    "cta": "Get Started Free",
+    "learnMore": "Learn More"
+  },
+  "features": {
+    "collaboration": {
+      "title": "Real-Time Collaboration",
+      "description": "Work together seamlessly with your team, no matter where they are"
+    },
+    "deployment": {
+      "title": "One-Click Deployment",
+      "description": "Ship to production in seconds with automated CI/CD pipelines"
+    },
+    "monitoring": {
+      "title": "Advanced Monitoring",
+      "description": "Track performance, errors, and user behavior in real-time"
+    }
+  },
+  "forms": {
+    "email": {
+      "label": "Email Address",
+      "placeholder": "your@email.com",
+      "required": "Email address is required",
+      "invalid": "Please enter a valid email address",
+      "hint": "We'll never share your email with anyone",
+      "aria": {
+        "required": "This is a required field",
+        "invalid": "Email format is incorrect. Please check and try again"
+      }
+    },
+    "password": {
+      "label": "Password",
+      "placeholder": "Enter your password",
+      "required": "Password is required",
+      "tooShort": "Password must be at least 8 characters",
+      "tooWeak": "Password must include uppercase, lowercase, and numbers",
+      "hint": "Choose a strong password with mixed characters",
+      "aria": {
+        "requirements": "Password requirements: minimum 8 characters, including uppercase letters, lowercase letters, and numbers",
+        "strengthWeak": "Password strength: weak",
+        "strengthMedium": "Password strength: medium",
+        "strengthStrong": "Password strength: strong"
+      }
+    },
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save Changes",
+    "delete": "Delete",
+    "errors": {
+      "required": "This field is required",
+      "invalidEmail": "Please enter a valid email address",
+      "passwordMismatch": "Passwords do not match",
+      "passwordTooShort": "Password must be at least 8 characters",
+      "serverError": "Something went wrong. Please try again."
+    }
+  },
+  "dashboard": {
+    "welcome": "Welcome back, {{name}}",
+    "lastLogin": "Last login: {{date}}",
+    "projects": {
+      "title": "Your Projects",
+      "empty": "You don't have any projects yet",
+      "create": "Create New Project"
+    },
+    "stats": {
+      "totalProjects": "Total Projects",
+      "activeUsers": "Active Users",
+      "deploymentsToday": "Deployments Today"
+    }
+  },
+  "products": {
+    "title": "Our Products",
+    "viewDetails": "View Details",
+    "addToCart": "Add to Cart",
+    "outOfStock": "Out of Stock",
+    "inStock": "In Stock: {{count}} available",
+    "price": "Price",
+    "table": {
+      "caption": "Product catalog",
+      "name": "Product Name",
+      "price": "Price",
+      "stock": "Stock",
+      "actions": "Actions",
+      "itemsInStock": "{{count}} items in stock",
+      "editProduct": "Edit {{name}}",
+      "deleteProduct": "Delete {{name}}"
+    },
+    "search": {
+      "label": "Search",
+      "placeholder": "Search products...",
+      "button": "Search",
+      "resultsCount": "{{count}} results found",
+      "aria": {
+        "searchInput": "Search products by name or category",
+        "submitButton": "Submit search query",
+        "clearButton": "Clear search field",
+        "resultsRegion": "Search results",
+        "noResults": "No results found for your search",
+        "loading": "Loading search results"
+      }
+    }
+  },
+  "pricing": {
+    "free": {
+      "name": "Free",
+      "price": "$0",
+      "period": "per month",
+      "features": [
+        "Up to 3 projects",
+        "Basic monitoring",
+        "Community support"
+      ]
+    },
+    "pro": {
+      "name": "Professional",
+      "price": "$29",
+      "period": "per month",
+      "features": [
+        "Unlimited projects",
+        "Advanced monitoring",
+        "Priority support",
+        "Custom domains"
+      ]
+    }
+  },
+  "footer": {
+    "company": "Company",
+    "product": "Product",
+    "resources": "Resources",
+    "legal": "Legal",
+    "copyright": "© {{year}} YourCompany. All rights reserved.",
+    "links": {
+      "blog": "Blog",
+      "careers": "Careers",
+      "terms": "Terms of Service",
+      "privacy": "Privacy Policy"
+    }
+  },
+  "validation": {
+    "min": "Must be at least {{min}} characters",
+    "max": "Cannot exceed {{max}} characters",
+    "between": "Must be between {{min}} and {{max}} characters",
+    "numeric": "Must be a number",
+    "url": "Must be a valid URL"
+  },
+  "time": {
+    "justNow": "just now",
+    "minutesAgo_one": "{{count}} minute ago",
+    "minutesAgo_other": "{{count}} minutes ago",
+    "hoursAgo_one": "{{count}} hour ago",
+    "hoursAgo_other": "{{count}} hours ago",
+    "daysAgo_one": "{{count}} day ago",
+    "daysAgo_other": "{{count}} days ago"
+  },
+  "status": {
+    "loading": "Loading content, please wait",
+    "saving": "Saving your changes",
+    "saved": "Changes saved successfully",
+    "error": "An error occurred. Please try again",
+    "deleting": "Deleting item",
+    "deleted": "Item deleted successfully",
+    "uploading": "Uploading file: {{filename}}",
+    "uploadComplete": "File uploaded: {{filename}}",
+    "uploadFailed": "Failed to upload {{filename}}. Please try again"
+  },
+  "images": {
+    "logo": {
+      "alt": "YourCompany logo - Home page link"
+    },
+    "product": {
+      "placeholder": "Product image",
+      "loading": "Product image loading",
+      "error": "Product image failed to load"
+    },
+    "icons": {
+      "search": "Search icon",
+      "menu": "Menu icon",
+      "close": "Close icon",
+      "user": "User profile icon",
+      "settings": "Settings icon",
+      "notification": "Notifications icon with {{count}} unread items"
+    }
+  },
+  "modal": {
+    "close": "Close dialog"
+  },
+  "upload": {
+    "chooseFile": "Choose file to upload"
+  },
+  "landmarks": {
+    "mainNavigation": "Main navigation",
+    "primaryContent": "Primary content",
+    "searchForm": "Search form",
+    "siteFooter": "Site footer",
+    "breadcrumb": "Breadcrumb navigation"
+  }
+}

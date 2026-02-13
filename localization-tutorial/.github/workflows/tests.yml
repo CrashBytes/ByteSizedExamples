@@ -1,0 +1,44 @@
+name: React i18next Tests
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'react-i18next-example/**'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'react-i18next-example/**'
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: react-i18next-example/package-lock.json
+
+      - name: Install dependencies
+        run: |
+          cd react-i18next-example
+          npm ci
+
+      - name: Run tests
+        run: |
+          cd react-i18next-example
+          npm run test:run
+
+      - name: Run type check
+        run: |
+          cd react-i18next-example
+          npm run type-check

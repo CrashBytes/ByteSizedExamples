@@ -1,0 +1,43 @@
+name: Validate Translations
+
+on:
+  push:
+    branches: [ main, develop ]
+    paths:
+      - 'react-i18next-example/src/locales/**'
+      - 'scripts/validate-translations.js'
+  pull_request:
+    branches: [ main, develop ]
+    paths:
+      - 'react-i18next-example/src/locales/**'
+      - 'scripts/validate-translations.js'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Make validation script executable
+        run: chmod +x scripts/validate-translations.js
+      
+      - name: Validate translation completeness
+        run: node scripts/validate-translations.js
+      
+      - name: Report results
+        if: success()
+        run: echo "All translation files are valid and complete!"
+      
+      - name: Report failures
+        if: failure()
+        run: |
+          echo "Translation validation failed!"
+          echo "Please check the logs above for missing or extra keys."
+          exit 1

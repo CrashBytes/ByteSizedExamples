@@ -1,0 +1,57 @@
+node_modules
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+
+# Hardhat files
+cache
+artifacts
+
+# Frontend build
+frontend/build
+frontend/node_modules
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+.nyc_output
+
+# Deployment info (optional - can be committed for public contracts)
+deployments/*.json
+!deployments/README.md
+
+# Mint records (optional - contains public blockchain data)
+mints/*.json
+!mints/README.md
+
+# Metadata files (commit these if you want)
+# metadata/images/*
+# metadata/json/*
+!metadata/images/README.md
+!metadata/json/README.md
+
+# Temporary files
+*.tmp
+*.bak
+
+# Package manager
+package-lock.json
+yarn.lock
+pnpm-lock.yaml

@@ -1,0 +1,2842 @@
+
+ RUN  v1.6.1 /Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example
+
+stdout | Object.output (file:/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/i18next/dist/esm/i18next.js:202:49)
+i18next: languageChanged en-US
+i18next: initialized {
+  debug: true,
+  initImmediate: true,
+  ns: [ 'translation' ],
+  defaultNS: 'translation',
+  fallbackLng: [ 'en-US' ],
+  fallbackNS: false,
+  supportedLngs: [
+    'en-US',  'es-ES',
+    'fr-FR',  'de-DE',
+    'ja-JP',  'ar-SA',
+    'cimode'
+  ],
+  nonExplicitSupportedLngs: false,
+  load: 'all',
+  preload: false,
+  simplifyPluralSuffix: true,
+  keySeparator: '.',
+  nsSeparator: ':',
+  pluralSeparator: '_',
+  contextSeparator: '_',
+  partialBundledLanguages: false,
+  saveMissing: false,
+  updateMissing: false,
+  saveMissingTo: 'fallback',
+  saveMissingPlurals: true,
+  missingKeyHandler: false,
+  missingInterpolationHandler: false,
+  postProcess: false,
+  postProcessPassResolved: false,
+  returnNull: false,
+  returnEmptyString: true,
+  returnObjects: false,
+  joinArrays: false,
+  returnedObjectHandler: false,
+  parseMissingKeyHandler: false,
+  appendNamespaceToMissingKey: false,
+  appendNamespaceToCIMode: false,
+  overloadTranslationOptionHandler: [Function: overloadTranslationOptionHandler],
+  interpolation: {
+    escapeValue: false,
+    format: [Function: bound format],
+    prefix: '{{',
+    suffix: '}}',
+    formatSeparator: ',',
+    unescapePrefix: '-',
+    nestingPrefix: '$t(',
+    nestingSuffix: ')',
+    nestingOptionsSeparator: ',',
+    maxReplaces: 1000,
+    skipOnVariables: true
+  },
+  resources: {
+    'en-US': { translation: [Object] },
+    'es-ES': { translation: [Object] },
+    'fr-FR': { translation: [Object] },
+    'de-DE': { translation: [Object] },
+    'ja-JP': { translation: [Object] },
+    'ar-SA': { translation: [Object] }
+  },
+  detection: {
+    order: [ 'querystring', 'cookie', 'localStorage', 'navigator' ],
+    caches: [ 'localStorage', 'cookie' ],
+    lookupQuerystring: 'lang',
+    lookupCookie: 'i18next',
+    lookupLocalStorage: 'i18nextLng',
+    lookupSessionStorage: 'i18nextLng',
+    excludeCacheFor: [ 'cimode' ],
+    convertDetectedLanguage: [Function: convertDetectedLanguage]
+  },
+  ignoreJSONStructure: true
+}
+
+stderr | Object.output (file:/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/i18next/dist/esm/i18next.js:202:49)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stdout | Object.output (file:/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/i18next/dist/esm/i18next.js:202:49)
+i18next: languageChanged en-US
+i18next: initialized {
+  debug: true,
+  initImmediate: true,
+  ns: [ 'translation' ],
+  defaultNS: 'translation',
+  fallbackLng: [ 'en-US' ],
+  fallbackNS: false,
+  supportedLngs: [
+    'en-US',  'es-ES',
+    'fr-FR',  'de-DE',
+    'ja-JP',  'ar-SA',
+    'cimode'
+  ],
+  nonExplicitSupportedLngs: false,
+  load: 'all',
+  preload: false,
+  simplifyPluralSuffix: true,
+  keySeparator: '.',
+  nsSeparator: ':',
+  pluralSeparator: '_',
+  contextSeparator: '_',
+  partialBundledLanguages: false,
+  saveMissing: false,
+  updateMissing: false,
+  saveMissingTo: 'fallback',
+  saveMissingPlurals: true,
+  missingKeyHandler: false,
+  missingInterpolationHandler: false,
+  postProcess: false,
+  postProcessPassResolved: false,
+  returnNull: false,
+  returnEmptyString: true,
+  returnObjects: false,
+  joinArrays: false,
+  returnedObjectHandler: false,
+  parseMissingKeyHandler: false,
+  appendNamespaceToMissingKey: false,
+  appendNamespaceToCIMode: false,
+  overloadTranslationOptionHandler: [Function: overloadTranslationOptionHandler],
+  interpolation: {
+    escapeValue: false,
+    format: [Function: bound format],
+    prefix: '{{',
+    suffix: '}}',
+    formatSeparator: ',',
+    unescapePrefix: '-',
+    nestingPrefix: '$t(',
+    nestingSuffix: ')',
+    nestingOptionsSeparator: ',',
+    maxReplaces: 1000,
+    skipOnVariables: true
+  },
+  resources: {
+    'en-US': { translation: [Object] },
+    'es-ES': { translation: [Object] },
+    'fr-FR': { translation: [Object] },
+    'de-DE': { translation: [Object] },
+    'ja-JP': { translation: [Object] },
+    'ar-SA': { translation: [Object] }
+  },
+  detection: {
+    order: [ 'querystring', 'cookie', 'localStorage', 'navigator' ],
+    caches: [ 'localStorage', 'cookie' ],
+    lookupQuerystring: 'lang',
+    lookupCookie: 'i18next',
+    lookupLocalStorage: 'i18nextLng',
+    lookupSessionStorage: 'i18nextLng',
+    excludeCacheFor: [ 'cimode' ],
+    convertDetectedLanguage: [Function: convertDetectedLanguage]
+  },
+  ignoreJSONStructure: true
+}
+
+stderr | Object.output (file:/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/i18next/dist/esm/i18next.js:202:49)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stdout | Object.output (file:/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/i18next/dist/esm/i18next.js:202:49)
+i18next: languageChanged en-US
+i18next: initialized {
+  debug: true,
+  initImmediate: true,
+  ns: [ 'translation' ],
+  defaultNS: 'translation',
+  fallbackLng: [ 'en-US' ],
+  fallbackNS: false,
+  supportedLngs: [
+    'en-US',  'es-ES',
+    'fr-FR',  'de-DE',
+    'ja-JP',  'ar-SA',
+    'cimode'
+  ],
+  nonExplicitSupportedLngs: false,
+  load: 'all',
+  preload: false,
+  simplifyPluralSuffix: true,
+  keySeparator: '.',
+  nsSeparator: ':',
+  pluralSeparator: '_',
+  contextSeparator: '_',
+  partialBundledLanguages: false,
+  saveMissing: false,
+  updateMissing: false,
+  saveMissingTo: 'fallback',
+  saveMissingPlurals: true,
+  missingKeyHandler: false,
+  missingInterpolationHandler: false,
+  postProcess: false,
+  postProcessPassResolved: false,
+  returnNull: false,
+  returnEmptyString: true,
+  returnObjects: false,
+  joinArrays: false,
+  returnedObjectHandler: false,
+  parseMissingKeyHandler: false,
+  appendNamespaceToMissingKey: false,
+  appendNamespaceToCIMode: false,
+  overloadTranslationOptionHandler: [Function: overloadTranslationOptionHandler],
+  interpolation: {
+    escapeValue: false,
+    format: [Function: bound format],
+    prefix: '{{',
+    suffix: '}}',
+    formatSeparator: ',',
+    unescapePrefix: '-',
+    nestingPrefix: '$t(',
+    nestingSuffix: ')',
+    nestingOptionsSeparator: ',',
+    maxReplaces: 1000,
+    skipOnVariables: true
+  },
+  resources: {
+    'en-US': { translation: [Object] },
+    'es-ES': { translation: [Object] },
+    'fr-FR': { translation: [Object] },
+    'de-DE': { translation: [Object] },
+    'ja-JP': { translation: [Object] },
+    'ar-SA': { translation: [Object] }
+  },
+  detection: {
+    order: [ 'querystring', 'cookie', 'localStorage', 'navigator' ],
+    caches: [ 'localStorage', 'cookie' ],
+    lookupQuerystring: 'lang',
+    lookupCookie: 'i18next',
+    lookupLocalStorage: 'i18nextLng',
+    lookupSessionStorage: 'i18nextLng',
+    excludeCacheFor: [ 'cimode' ],
+    convertDetectedLanguage: [Function: convertDetectedLanguage]
+  },
+  ignoreJSONStructure: true
+}
+
+stderr | Object.output (file:/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/i18next/dist/esm/i18next.js:202:49)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stdout | Object.output (file:/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/i18next/dist/esm/i18next.js:202:49)
+i18next: languageChanged en-US
+i18next: initialized {
+  debug: true,
+  initImmediate: true,
+  ns: [ 'translation' ],
+  defaultNS: 'translation',
+  fallbackLng: [ 'en-US' ],
+  fallbackNS: false,
+  supportedLngs: [
+    'en-US',  'es-ES',
+    'fr-FR',  'de-DE',
+    'ja-JP',  'ar-SA',
+    'cimode'
+  ],
+  nonExplicitSupportedLngs: false,
+  load: 'all',
+  preload: false,
+  simplifyPluralSuffix: true,
+  keySeparator: '.',
+  nsSeparator: ':',
+  pluralSeparator: '_',
+  contextSeparator: '_',
+  partialBundledLanguages: false,
+  saveMissing: false,
+  updateMissing: false,
+  saveMissingTo: 'fallback',
+  saveMissingPlurals: true,
+  missingKeyHandler: false,
+  missingInterpolationHandler: false,
+  postProcess: false,
+  postProcessPassResolved: false,
+  returnNull: false,
+  returnEmptyString: true,
+  returnObjects: false,
+  joinArrays: false,
+  returnedObjectHandler: false,
+  parseMissingKeyHandler: false,
+  appendNamespaceToMissingKey: false,
+  appendNamespaceToCIMode: false,
+  overloadTranslationOptionHandler: [Function: overloadTranslationOptionHandler],
+  interpolation: {
+    escapeValue: false,
+    format: [Function: bound format],
+    prefix: '{{',
+    suffix: '}}',
+    formatSeparator: ',',
+    unescapePrefix: '-',
+    nestingPrefix: '$t(',
+    nestingSuffix: ')',
+    nestingOptionsSeparator: ',',
+    maxReplaces: 1000,
+    skipOnVariables: true
+  },
+  resources: {
+    'en-US': { translation: [Object] },
+    'es-ES': { translation: [Object] },
+    'fr-FR': { translation: [Object] },
+    'de-DE': { translation: [Object] },
+    'ja-JP': { translation: [Object] },
+    'ar-SA': { translation: [Object] }
+  },
+  detection: {
+    order: [ 'querystring', 'cookie', 'localStorage', 'navigator' ],
+    caches: [ 'localStorage', 'cookie' ],
+    lookupQuerystring: 'lang',
+    lookupCookie: 'i18next',
+    lookupLocalStorage: 'i18nextLng',
+    lookupSessionStorage: 'i18nextLng',
+    excludeCacheFor: [ 'cimode' ],
+    convertDetectedLanguage: [Function: convertDetectedLanguage]
+  },
+  ignoreJSONStructure: true
+}
+
+stderr | Object.output (file:/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/i18next/dist/esm/i18next.js:202:49)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/locales/translations.test.ts > Translation Files Validation > Translation Completeness > es-ES translations > has no extra keys not in base language
+es-ES has extra keys: [ 'product.lowStock', 'product.inStock' ]
+
+stderr | src/locales/translations.test.ts > Translation Files Validation > Translation Completeness > fr-FR translations > has no extra keys not in base language
+fr-FR has extra keys: [ 'product.lowStock', 'product.inStock' ]
+
+stderr | src/locales/translations.test.ts > Translation Files Validation > Translation Completeness > de-DE translations > has no extra keys not in base language
+de-DE has extra keys: [ 'product.lowStock', 'product.inStock' ]
+
+stderr | src/locales/translations.test.ts > Translation Files Validation > Translation Completeness > ja-JP translations > has no extra keys not in base language
+ja-JP has extra keys: [ 'product.lowStock', 'product.inStock' ]
+
+stderr | src/locales/translations.test.ts > Translation Files Validation > Translation Quality > no translations contain placeholder text
+Found placeholder issues in es-ES: [
+  'es-ES:footer.copyright contains placeholder: "© {{year}} TuEmpresa. Todos los derechos reservados."'
+]
+
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Translation Completeness > base language (en-US) has all required keys
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Translation Completeness > es-ES translations > has all keys from base language
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Translation Completeness > es-ES translations > has no extra keys not in base language
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Translation Completeness > es-ES translations > has no empty translation values
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Translation Completeness > fr-FR translations > has all keys from base language
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Translation Completeness > fr-FR translations > has no extra keys not in base language
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Translation Completeness > fr-FR translations > has no empty translation values
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Translation Completeness > de-DE translations > has all keys from base language
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Translation Completeness > de-DE translations > has no extra keys not in base language
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Translation Completeness > de-DE translations > has no empty translation values
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Translation Completeness > ja-JP translations > has all keys from base language
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Translation Completeness > ja-JP translations > has no extra keys not in base language
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Translation Completeness > ja-JP translations > has no empty translation values
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Translation Structure > all translation files have the same structure
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Translation Structure > all namespaces exist in all languages
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Interpolation Variables > all languages use the same interpolation variables
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Pluralization Keys > plural keys are consistent across languages
+ × src/locales/translations.test.ts > Translation Files Validation > Translation Quality > no translations contain placeholder text
+   → expected [ Array(1) ] to have a length of +0 but got 1
+ ✓ src/locales/translations.test.ts > Translation Files Validation > Translation Quality > translations are not identical to base language
+ ✓ src/locales/translations.test.ts > Translation Files Validation > JSON Validity > en-US is valid JSON
+ ✓ src/locales/translations.test.ts > Translation Files Validation > JSON Validity > es-ES is valid JSON
+ ✓ src/locales/translations.test.ts > Translation Files Validation > JSON Validity > fr-FR is valid JSON
+ ✓ src/locales/translations.test.ts > Translation Files Validation > JSON Validity > de-DE is valid JSON
+ ✓ src/locales/translations.test.ts > Translation Files Validation > JSON Validity > ja-JP is valid JSON
+ ✓ src/i18n/i18n.test.ts > i18n Configuration > Initialization > initializes i18next successfully
+ ✓ src/i18n/i18n.test.ts > i18n Configuration > Initialization > has default language set
+ ✓ src/i18n/i18n.test.ts > i18n Configuration > Initialization > has fallback language configured
+ ✓ src/i18n/i18n.test.ts > i18n Configuration > Supported Languages > has all required languages available
+ ✓ src/i18n/i18n.test.ts > i18n Configuration > Supported Languages > can switch to all supported languages
+ ✓ src/i18n/i18n.test.ts > i18n Configuration > Translation Keys > has product namespace translations
+ ✓ src/i18n/i18n.test.ts > i18n Configuration > Translation Keys > has common namespace translations
+ ✓ src/i18n/i18n.test.ts > i18n Configuration > Interpolation > interpolates variables correctly
+ ✓ src/i18n/i18n.test.ts > i18n Configuration > Interpolation > handles missing interpolation values gracefully
+ ✓ src/i18n/i18n.test.ts > i18n Configuration > Pluralization > handles singular form correctly
+ ✓ src/i18n/i18n.test.ts > i18n Configuration > Pluralization > handles plural form correctly
+ ✓ src/i18n/i18n.test.ts > i18n Configuration > Pluralization > handles zero count
+ ✓ src/i18n/i18n.test.ts > i18n Configuration > Currency Formatting > formats USD correctly
+ ✓ src/i18n/i18n.test.ts > i18n Configuration > Currency Formatting > formats EUR correctly
+ ✓ src/i18n/i18n.test.ts > i18n Configuration > Currency Formatting > formats JPY correctly (no decimals)
+ ✓ src/i18n/i18n.test.ts > i18n Configuration > Language Detection > detects browser language
+ ✓ src/i18n/i18n.test.ts > i18n Configuration > Language Detection > falls back to default language for unsupported locales
+ ✓ src/i18n/i18n.test.ts > i18n Configuration > Namespace Loading > has translation namespace loaded
+ ✓ src/i18n/i18n.test.ts > i18n Configuration > Namespace Loading > can access translations from namespace
+ ✓ src/i18n/i18n.test.ts > i18n Configuration > Translation Completeness > all languages have the same keys as base language
+ ✓ src/i18n/i18n.test.ts > i18n Configuration > Error Handling > returns key when translation is missing
+ ✓ src/i18n/i18n.test.ts > i18n Configuration > Error Handling > handles invalid namespace gracefully
+ ✓ src/i18n/i18n.test.ts > i18n Configuration > Language Change Events > emits event when language changes
+stdout | src/i18n/i18n.test.ts > i18n Configuration > Supported Languages > can switch to all supported languages
+i18next: languageChanged en-US
+i18next: languageChanged es-ES
+i18next: languageChanged fr-FR
+i18next: languageChanged de-DE
+i18next: languageChanged ja-JP
+
+stderr | src/i18n/i18n.test.ts > i18n Configuration > Supported Languages > can switch to all supported languages
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+i18next::languageUtils: rejecting language code not found in supportedLngs: fr
+i18next::languageUtils: rejecting language code not found in supportedLngs: de
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+
+stderr | src/i18n/i18n.test.ts > i18n Configuration > Translation Keys > has product namespace translations
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+
+stderr | src/i18n/i18n.test.ts > i18n Configuration > Translation Keys > has common namespace translations
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+
+stderr | src/i18n/i18n.test.ts > i18n Configuration > Interpolation > interpolates variables correctly
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+
+stderr | src/i18n/i18n.test.ts > i18n Configuration > Interpolation > handles missing interpolation values gracefully
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+
+stdout | src/i18n/i18n.test.ts > i18n Configuration > Pluralization > handles singular form correctly
+i18next: languageChanged en-US
+
+stderr | src/i18n/i18n.test.ts > i18n Configuration > Pluralization > handles singular form correctly
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stdout | src/i18n/i18n.test.ts > i18n Configuration > Pluralization > handles plural form correctly
+i18next: languageChanged en-US
+
+stderr | src/i18n/i18n.test.ts > i18n Configuration > Pluralization > handles plural form correctly
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stdout | src/i18n/i18n.test.ts > i18n Configuration > Pluralization > handles zero count
+i18next: languageChanged en-US
+
+stderr | src/i18n/i18n.test.ts > i18n Configuration > Pluralization > handles zero count
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stdout | src/i18n/i18n.test.ts > i18n Configuration > Language Detection > falls back to default language for unsupported locales
+i18next: languageChanged xx-XX
+
+stderr | src/i18n/i18n.test.ts > i18n Configuration > Language Detection > falls back to default language for unsupported locales
+i18next::languageUtils: rejecting language code not found in supportedLngs: xx-XX
+i18next::languageUtils: rejecting language code not found in supportedLngs: xx
+i18next::languageUtils: rejecting language code not found in supportedLngs: xx-XX
+i18next::languageUtils: rejecting language code not found in supportedLngs: xx
+
+stderr | src/i18n/i18n.test.ts > i18n Configuration > Namespace Loading > can access translations from namespace
+i18next::languageUtils: rejecting language code not found in supportedLngs: xx-XX
+i18next::languageUtils: rejecting language code not found in supportedLngs: xx
+
+stdout | src/i18n/i18n.test.ts > i18n Configuration > Translation Completeness > all languages have the same keys as base language
+i18next: languageChanged en-US
+i18next: languageChanged es-ES
+i18next: languageChanged fr-FR
+i18next: languageChanged de-DE
+i18next: languageChanged ja-JP
+
+stderr | src/i18n/i18n.test.ts > i18n Configuration > Translation Completeness > all languages have the same keys as base language
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+i18next::languageUtils: rejecting language code not found in supportedLngs: fr
+i18next::languageUtils: rejecting language code not found in supportedLngs: de
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+
+stdout | src/i18n/i18n.test.ts > i18n Configuration > Error Handling > returns key when translation is missing
+i18next::translator: missingKey ja-JP translation nonexistent.key nonexistent.key
+
+stderr | src/i18n/i18n.test.ts > i18n Configuration > Error Handling > returns key when translation is missing
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+
+stdout | src/i18n/i18n.test.ts > i18n Configuration > Error Handling > handles invalid namespace gracefully
+i18next::translator: missingKey ja-JP invalid namespace.key namespace.key
+
+stderr | src/i18n/i18n.test.ts > i18n Configuration > Error Handling > handles invalid namespace gracefully
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+
+stdout | src/i18n/i18n.test.ts > i18n Configuration > Language Change Events > emits event when language changes
+i18next: languageChanged fr-FR
+
+stderr | src/i18n/i18n.test.ts > i18n Configuration > Language Change Events > emits event when language changes
+i18next::languageUtils: rejecting language code not found in supportedLngs: fr
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Rendering > renders search input field
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Rendering > renders search button
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Rendering > displays placeholder text
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > allows typing in search field
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Rendering > renders language selector dropdown
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Rendering > displays all available languages
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stdout | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Rendering > shows current language as selected
+i18next: languageChanged es-ES
+
+stderr | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Rendering > shows current language as selected
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+
+stdout | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Language Switching > changes language when user selects a different option
+i18next: languageChanged en-US
+
+stderr | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Language Switching > changes language when user selects a different option
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+ ✓ src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Rendering > renders language selector dropdown
+ ✓ src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Rendering > displays all available languages
+ ✓ src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Rendering > shows current language as selected
+ ✓ src/components/SearchBar.test.tsx > SearchBar > Rendering > renders search input field
+ ✓ src/components/SearchBar.test.tsx > SearchBar > Rendering > renders search button
+ ✓ src/components/SearchBar.test.tsx > SearchBar > Rendering > displays placeholder text
+stderr | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Language Switching > changes language when user selects a different option
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+Warning: An update to LanguageSwitcher inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at LanguageSwitcher (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/LanguageSwitcher.tsx:8:45)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+
+stdout | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Language Switching > changes language when user selects a different option
+i18next: languageChanged es-ES
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > allows typing in search field
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stdout | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Language Switching > changes language when user selects a different option
+<empty line>
+stderr | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Language Switching > changes language when user selects a different option
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > allows typing in search field
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > allows typing in search field
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stdout | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Language Switching > updates UI when language is changed
+i18next: languageChanged en-US
+
+stderr | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Language Switching > updates UI when language is changed
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > allows typing in search field
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > allows typing in search field
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Language Switching > updates UI when language is changed
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+Warning: An update to LanguageSwitcher inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at LanguageSwitcher (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/LanguageSwitcher.tsx:8:45)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+
+stdout | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Language Switching > updates UI when language is changed
+i18next: languageChanged es-ES
+
+ ✓ src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Language Switching > changes language when user selects a different option
+stdout | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Language Switching > updates UI when language is changed
+<empty line>
+stderr | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Language Switching > updates UI when language is changed
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > allows typing in search field
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > allows typing in search field
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > allows typing in search field
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > allows typing in search field
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > allows typing in search field
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/ProductCard.test.tsx > ProductCard > Product Information Display > renders product name and price
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/ProductCard.test.tsx > ProductCard > Product Information Display > renders product description when provided
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/ProductCard.test.tsx > ProductCard > Stock Status Display > shows in stock message when stock count is greater than 5
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/ProductCard.test.tsx > ProductCard > Stock Status Display > shows low stock message when stock count is 1-5
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/ProductCard.test.tsx > ProductCard > Stock Status Display > shows out of stock message when stock count is 0
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/ProductCard.test.tsx > ProductCard > Stock Status Display > handles singular form for 1 item
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/ProductCard.test.tsx > ProductCard > Currency Formatting > formats USD currency correctly
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stdout | src/components/ProductCard.test.tsx > ProductCard > Currency Formatting > formats EUR currency correctly
+i18next: languageChanged de-DE
+
+stderr | src/components/ProductCard.test.tsx > ProductCard > Currency Formatting > formats EUR currency correctly
+i18next::languageUtils: rejecting language code not found in supportedLngs: de
+i18next::languageUtils: rejecting language code not found in supportedLngs: de
+i18next::languageUtils: rejecting language code not found in supportedLngs: de
+i18next::languageUtils: rejecting language code not found in supportedLngs: de
+i18next::languageUtils: rejecting language code not found in supportedLngs: de
+
+stdout | src/components/ProductCard.test.tsx > ProductCard > Currency Formatting > formats JPY currency correctly
+i18next: languageChanged ja-JP
+
+stderr | src/components/ProductCard.test.tsx > ProductCard > Currency Formatting > formats JPY currency correctly
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+
+stdout | src/components/ProductCard.test.tsx > ProductCard > Localization > displays content in Spanish
+i18next: languageChanged es-ES
+
+stderr | src/components/ProductCard.test.tsx > ProductCard > Localization > displays content in Spanish
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+
+stdout | src/components/ProductCard.test.tsx > ProductCard > Localization > displays content in French
+i18next: languageChanged fr-FR
+
+stderr | src/components/ProductCard.test.tsx > ProductCard > Localization > displays content in French
+i18next::languageUtils: rejecting language code not found in supportedLngs: fr
+i18next::languageUtils: rejecting language code not found in supportedLngs: fr
+i18next::languageUtils: rejecting language code not found in supportedLngs: fr
+i18next::languageUtils: rejecting language code not found in supportedLngs: fr
+i18next::languageUtils: rejecting language code not found in supportedLngs: fr
+
+stdout | src/components/ProductCard.test.tsx > ProductCard > Localization > displays content in German
+i18next: languageChanged de-DE
+
+stderr | src/components/ProductCard.test.tsx > ProductCard > Localization > displays content in German
+i18next::languageUtils: rejecting language code not found in supportedLngs: de
+i18next::languageUtils: rejecting language code not found in supportedLngs: de
+i18next::languageUtils: rejecting language code not found in supportedLngs: de
+i18next::languageUtils: rejecting language code not found in supportedLngs: de
+i18next::languageUtils: rejecting language code not found in supportedLngs: de
+
+stdout | src/components/ProductCard.test.tsx > ProductCard > Localization > displays content in Japanese
+i18next: languageChanged ja-JP
+
+stderr | src/components/ProductCard.test.tsx > ProductCard > Localization > displays content in Japanese
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+
+stdout | src/components/ProductCard.test.tsx > ProductCard > Accessibility > has accessible button labels
+i18next: languageChanged en-US
+
+stderr | src/components/ProductCard.test.tsx > ProductCard > Accessibility > has accessible button labels
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/ProductCard.test.tsx > ProductCard > Accessibility > has accessible button label when out of stock
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/ProductCard.test.tsx > ProductCard > Accessibility > has proper ARIA label for stock status
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/ProductCard.test.tsx > ProductCard > Button Behavior > shows "Add to Cart" button when in stock
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/ProductCard.test.tsx > ProductCard > Button Behavior > shows "Notify Me" button when out of stock
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/ProductCard.test.tsx > ProductCard > Button Behavior > disables button when out of stock
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+ ✓ src/components/ProductCard.test.tsx > ProductCard > Product Information Display > renders product name and price
+ ✓ src/components/ProductCard.test.tsx > ProductCard > Product Information Display > renders product description when provided
+ ✓ src/components/ProductCard.test.tsx > ProductCard > Stock Status Display > shows in stock message when stock count is greater than 5
+ ✓ src/components/ProductCard.test.tsx > ProductCard > Stock Status Display > shows low stock message when stock count is 1-5
+ ✓ src/components/ProductCard.test.tsx > ProductCard > Stock Status Display > shows out of stock message when stock count is 0
+ ✓ src/components/ProductCard.test.tsx > ProductCard > Stock Status Display > handles singular form for 1 item
+ ✓ src/components/ProductCard.test.tsx > ProductCard > Currency Formatting > formats USD currency correctly
+ ✓ src/components/ProductCard.test.tsx > ProductCard > Currency Formatting > formats EUR currency correctly
+ ✓ src/components/ProductCard.test.tsx > ProductCard > Currency Formatting > formats JPY currency correctly
+ ✓ src/components/ProductCard.test.tsx > ProductCard > Localization > displays content in Spanish
+ ✓ src/components/ProductCard.test.tsx > ProductCard > Localization > displays content in French
+ ✓ src/components/ProductCard.test.tsx > ProductCard > Localization > displays content in German
+ ✓ src/components/ProductCard.test.tsx > ProductCard > Localization > displays content in Japanese
+ ✓ src/components/ProductCard.test.tsx > ProductCard > Accessibility > has accessible button labels
+ ✓ src/components/ProductCard.test.tsx > ProductCard > Accessibility > has accessible button label when out of stock
+ ✓ src/components/ProductCard.test.tsx > ProductCard > Accessibility > has proper ARIA label for stock status
+ ✓ src/components/ProductCard.test.tsx > ProductCard > Button Behavior > shows "Add to Cart" button when in stock
+ ✓ src/components/ProductCard.test.tsx > ProductCard > Button Behavior > shows "Notify Me" button when out of stock
+ ✓ src/components/ProductCard.test.tsx > ProductCard > Button Behavior > disables button when out of stock
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > allows typing in search field
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > allows typing in search field
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > allows typing in search field
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > allows typing in search field
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > allows typing in search field
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stdout | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Localization > displays label in English
+i18next: languageChanged en-US
+
+stderr | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Localization > displays label in English
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stdout | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Localization > displays label in Spanish
+i18next: languageChanged es-ES
+
+stderr | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Localization > displays label in Spanish
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+
+stdout | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Localization > displays label in French
+i18next: languageChanged fr-FR
+
+stderr | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Localization > displays label in French
+i18next::languageUtils: rejecting language code not found in supportedLngs: fr
+i18next::languageUtils: rejecting language code not found in supportedLngs: fr
+i18next::languageUtils: rejecting language code not found in supportedLngs: fr
+
+stdout | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Localization > displays label in German
+i18next: languageChanged de-DE
+
+stderr | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Localization > displays label in German
+i18next::languageUtils: rejecting language code not found in supportedLngs: de
+i18next::languageUtils: rejecting language code not found in supportedLngs: de
+i18next::languageUtils: rejecting language code not found in supportedLngs: de
+
+stdout | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Localization > displays label in Japanese
+i18next: languageChanged ja-JP
+
+stderr | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Localization > displays label in Japanese
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+
+stdout | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Accessibility > has accessible label for screen readers
+i18next: languageChanged en-US
+
+stderr | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Accessibility > has accessible label for screen readers
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Accessibility > has proper ARIA attributes
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Accessibility > all options have proper value attributes
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Accessibility > can be navigated with keyboard
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > allows typing in search field
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > allows typing in search field
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > allows typing in search field
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > allows typing in search field
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+ ✓ src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Language Switching > updates UI when language is changed
+ ✓ src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Localization > displays label in English
+ ✓ src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Localization > displays label in Spanish
+ ✓ src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Localization > displays label in French
+ ✓ src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Localization > displays label in German
+ ✓ src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Localization > displays label in Japanese
+ ✓ src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Accessibility > has accessible label for screen readers
+ ✓ src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Accessibility > has proper ARIA attributes
+ ✓ src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Accessibility > all options have proper value attributes
+stdout | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Accessibility > can be navigated with keyboard
+i18next: languageChanged es-ES
+
+stderr | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Accessibility > can be navigated with keyboard
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+Warning: An update to LanguageSwitcher inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at LanguageSwitcher (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/LanguageSwitcher.tsx:8:45)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+
+stdout | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Accessibility > can be navigated with keyboard
+<empty line>
+stderr | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Accessibility > can be navigated with keyboard
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > calls onSearch when search button is clicked
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+ ✓ src/components/SearchBar.test.tsx > SearchBar > User Interaction > allows typing in search field
+stdout | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Help Text > displays help text in current language
+i18next: languageChanged en-US
+
+stderr | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Help Text > displays help text in current language
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Help Text > help text updates when language changes
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > calls onSearch when search button is clicked
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stdout | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Help Text > help text updates when language changes
+i18next: languageChanged es-ES
+
+stderr | src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Help Text > help text updates when language changes
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+Warning: An update to LanguageSwitcher inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at LanguageSwitcher (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/LanguageSwitcher.tsx:8:45)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > calls onSearch when search button is clicked
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+ ✓ src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Accessibility > can be navigated with keyboard
+ ✓ src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Help Text > displays help text in current language
+ ✓ src/components/LanguageSwitcher.test.tsx > LanguageSwitcher > Help Text > help text updates when language changes
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > calls onSearch when search button is clicked
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > calls onSearch when search button is clicked
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > calls onSearch when search button is clicked
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > calls onSearch when search button is clicked
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > calls onSearch when search button is clicked
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > calls onSearch when search button is clicked
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > calls onSearch when search button is clicked
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > calls onSearch when Enter key is pressed
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > calls onSearch when Enter key is pressed
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+ ✓ src/components/SearchBar.test.tsx > SearchBar > User Interaction > calls onSearch when search button is clicked
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > calls onSearch when Enter key is pressed
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > calls onSearch when Enter key is pressed
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > calls onSearch when Enter key is pressed
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > calls onSearch when Enter key is pressed
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > calls onSearch when Enter key is pressed
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > calls onSearch when Enter key is pressed
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > calls onSearch when Enter key is pressed
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > calls onSearch when Enter key is pressed
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > calls onSearch when Enter key is pressed
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > does not call onSearch with empty query
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > trims whitespace from search query
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+ ✓ src/components/SearchBar.test.tsx > SearchBar > User Interaction > calls onSearch when Enter key is pressed
+ ✓ src/components/SearchBar.test.tsx > SearchBar > User Interaction > does not call onSearch with empty query
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > trims whitespace from search query
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > trims whitespace from search query
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > trims whitespace from search query
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > trims whitespace from search query
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > trims whitespace from search query
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > trims whitespace from search query
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > trims whitespace from search query
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > trims whitespace from search query
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > trims whitespace from search query
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > trims whitespace from search query
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > trims whitespace from search query
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > trims whitespace from search query
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > User Interaction > trims whitespace from search query
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Loading State > shows loading indicator when isLoading is true
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Loading State > disables search button when loading
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Loading State > does not disable input when loading
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Results Count > displays results count when provided
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Results Count > displays no results message when count is 0
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Results Count > handles singular form for 1 result
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Results Count > does not display results count when not provided
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stdout | src/components/SearchBar.test.tsx > SearchBar > Localization > displays placeholder in Spanish
+i18next: languageChanged es-ES
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Localization > displays placeholder in Spanish
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+i18next::languageUtils: rejecting language code not found in supportedLngs: es
+
+stdout | src/components/SearchBar.test.tsx > SearchBar > Localization > displays button text in French
+i18next: languageChanged fr-FR
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Localization > displays button text in French
+i18next::languageUtils: rejecting language code not found in supportedLngs: fr
+i18next::languageUtils: rejecting language code not found in supportedLngs: fr
+i18next::languageUtils: rejecting language code not found in supportedLngs: fr
+i18next::languageUtils: rejecting language code not found in supportedLngs: fr
+i18next::languageUtils: rejecting language code not found in supportedLngs: fr
+i18next::languageUtils: rejecting language code not found in supportedLngs: fr
+
+stdout | src/components/SearchBar.test.tsx > SearchBar > Localization > displays loading state in German
+i18next: languageChanged de-DE
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Localization > displays loading state in German
+i18next::languageUtils: rejecting language code not found in supportedLngs: de
+i18next::languageUtils: rejecting language code not found in supportedLngs: de
+i18next::languageUtils: rejecting language code not found in supportedLngs: de
+i18next::languageUtils: rejecting language code not found in supportedLngs: de
+i18next::languageUtils: rejecting language code not found in supportedLngs: de
+i18next::languageUtils: rejecting language code not found in supportedLngs: de
+i18next::languageUtils: rejecting language code not found in supportedLngs: de
+
+stdout | src/components/SearchBar.test.tsx > SearchBar > Localization > displays results count in Japanese
+i18next: languageChanged ja-JP
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Localization > displays results count in Japanese
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+i18next::languageUtils: rejecting language code not found in supportedLngs: ja
+
+stdout | src/components/SearchBar.test.tsx > SearchBar > Accessibility > has accessible label for search input
+i18next: languageChanged en-US
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Accessibility > has accessible label for search input
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Accessibility > has ARIA label on search input
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Accessibility > has ARIA description for screen readers
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Accessibility > announces results count to screen readers
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Accessibility > announces loading state to screen readers
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Accessibility > has proper button ARIA label
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Accessibility > updates ARIA labels when language changes
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Form Submission > prevents default form submission
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+Warning: validateDOMNesting(...): <form> cannot appear as a descendant of <form>.
+    at form
+    at div
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at form
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+
+ ✓ src/components/SearchBar.test.tsx > SearchBar > User Interaction > trims whitespace from search query
+ ✓ src/components/SearchBar.test.tsx > SearchBar > Loading State > shows loading indicator when isLoading is true
+ ✓ src/components/SearchBar.test.tsx > SearchBar > Loading State > disables search button when loading
+ ✓ src/components/SearchBar.test.tsx > SearchBar > Loading State > does not disable input when loading
+ ✓ src/components/SearchBar.test.tsx > SearchBar > Results Count > displays results count when provided
+ ✓ src/components/SearchBar.test.tsx > SearchBar > Results Count > displays no results message when count is 0
+ ✓ src/components/SearchBar.test.tsx > SearchBar > Results Count > handles singular form for 1 result
+ ✓ src/components/SearchBar.test.tsx > SearchBar > Results Count > does not display results count when not provided
+ ✓ src/components/SearchBar.test.tsx > SearchBar > Localization > displays placeholder in Spanish
+ ✓ src/components/SearchBar.test.tsx > SearchBar > Localization > displays button text in French
+ ✓ src/components/SearchBar.test.tsx > SearchBar > Localization > displays loading state in German
+ ✓ src/components/SearchBar.test.tsx > SearchBar > Localization > displays results count in Japanese
+ ✓ src/components/SearchBar.test.tsx > SearchBar > Accessibility > has accessible label for search input
+ ✓ src/components/SearchBar.test.tsx > SearchBar > Accessibility > has ARIA label on search input
+ ✓ src/components/SearchBar.test.tsx > SearchBar > Accessibility > has ARIA description for screen readers
+ ✓ src/components/SearchBar.test.tsx > SearchBar > Accessibility > announces results count to screen readers
+ ✓ src/components/SearchBar.test.tsx > SearchBar > Accessibility > announces loading state to screen readers
+ ✓ src/components/SearchBar.test.tsx > SearchBar > Accessibility > has proper button ARIA label
+ ✓ src/components/SearchBar.test.tsx > SearchBar > Accessibility > updates ARIA labels when language changes
+stderr | src/components/SearchBar.test.tsx > SearchBar > Form Submission > prevents default form submission
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at form
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at form
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Form Submission > prevents default form submission
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at form
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Form Submission > prevents default form submission
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at form
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Form Submission > prevents default form submission
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at form
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Form Submission > prevents default form submission
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at form
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Form Submission > prevents default form submission
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at form
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Form Submission > prevents default form submission
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at form
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Form Submission > prevents default form submission
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at form
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Form Submission > prevents default form submission
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at form
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Clear Functionality > clears input when clear button is clicked
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Clear Functionality > clears input when clear button is clicked
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Clear Functionality > clears input when clear button is clicked
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+ ✓ src/components/SearchBar.test.tsx > SearchBar > Form Submission > prevents default form submission
+stderr | src/components/SearchBar.test.tsx > SearchBar > Clear Functionality > clears input when clear button is clicked
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Clear Functionality > clears input when clear button is clicked
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Clear Functionality > clears input when clear button is clicked
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Clear Functionality > clears input when clear button is clicked
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Clear Functionality > clears input when clear button is clicked
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Clear Functionality > clears input when clear button is clicked
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Clear Functionality > clears input when clear button is clicked
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Clear Functionality > clears input when clear button is clicked
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+stderr | src/components/SearchBar.test.tsx > SearchBar > Clear Functionality > clears input when clear button is clicked
+Warning: An update to SearchBar inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at SearchBar (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/components/SearchBar.tsx:8:3)
+    at I18nextProvider (file:///Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/node_modules/react-i18next/dist/es/I18nextProvider.js:5:5)
+    at Wrapper (/Users/blackholesoftware/github/crashbytes-tutorials/localization-tutorial/react-i18next-example/src/test/test-utils.tsx:13:22)
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+i18next::languageUtils: rejecting language code not found in supportedLngs: en
+
+ ✓ src/components/SearchBar.test.tsx > SearchBar > Clear Functionality > clears input when clear button is clicked
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/locales/translations.test.ts > Translation Files Validation > Translation Quality > no translations contain placeholder text
+AssertionError: expected [ Array(1) ] to have a length of +0 but got 1
+
+- Expected
++ Received
+
+- 0
++ 1
+
+ ❯ src/locales/translations.test.ts:238:24
+    236|           console.warn(`Found placeholder issues in ${locale}:`, issue…
+    237|         }
+    238|         expect(issues).toHaveLength(0);
+       |                        ^
+    239|       });
+    240|     });
+ ❯ src/locales/translations.test.ts:233:36
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+ Test Files  1 failed | 4 passed (5)
+      Tests  1 failed | 109 passed (110)
+   Start at  16:58:19
+   Duration  784ms (transform 130ms, setup 463ms, collect 387ms, tests 539ms, environment 789ms, prepare 309ms)
+

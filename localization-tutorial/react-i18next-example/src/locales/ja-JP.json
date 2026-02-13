@@ -1,0 +1,244 @@
+{
+  "languageSwitcher": {
+    "label": "言語を選択",
+    "currentLanguage": "現在の言語"
+  },
+  "product": {
+    "outOfStock": "在庫切れ",
+    "lowStock_one": "残り{{count}}個",
+    "lowStock_other": "残り{{count}}個",
+    "inStock_one": "{{count}}個の在庫あり",
+    "inStock_other": "{{count}}個の在庫あり",
+    "addToCart": "カートに追加",
+    "notifyMe": "再入荷時に通知",
+    "stockAvailability": "在庫状況"
+  },
+  "search": {
+    "label": "検索",
+    "placeholder": "製品を検索...",
+    "button": "検索",
+    "searching": "検索中...",
+    "clear": "クリア",
+    "resultsFound_one": "{{count}}件の結果が見つかりました",
+    "resultsFound_other": "{{count}}件の結果が見つかりました",
+    "noResults": "結果が見つかりませんでした"
+  },
+  "common": {
+    "search": "検索",
+    "searching": "検索中...",
+    "resultsFound": "{{count}}件の結果が見つかりました",
+    "noResults": "結果が見つかりませんでした",
+    "selectLanguage": "言語を選択",
+    "currentLanguage": "現在の言語",
+    "languageSwitcherHelp": "ドロップダウンを使用して言語を切り替えます。上部のツールバーを使用してグローバルロケールを変更することもできます。"
+  },
+  "navigation": {
+    "home": "ホーム",
+    "about": "会社概要",
+    "products": "製品",
+    "pricing": "料金",
+    "contact": "お問い合わせ",
+    "login": "ログイン",
+    "signup": "新規登録"
+  },
+  "hero": {
+    "title": "より良いソフトウェアを、より速く構築",
+    "subtitle": "モダンな開発チームのためのオールインワンプラットフォーム",
+    "cta": "無料で始める",
+    "learnMore": "詳しく見る"
+  },
+  "features": {
+    "collaboration": {
+      "title": "リアルタイムコラボレーション",
+      "description": "チームメンバーがどこにいても、シームレスに協働できます"
+    },
+    "deployment": {
+      "title": "ワンクリックデプロイ",
+      "description": "自動化されたCI/CDパイプラインで数秒で本番環境へデプロイ"
+    },
+    "monitoring": {
+      "title": "高度な監視",
+      "description": "パフォーマンス、エラー、ユーザー行動をリアルタイムで追跡"
+    }
+  },
+  "forms": {
+    "email": {
+      "label": "メールアドレス",
+      "placeholder": "your@email.com",
+      "required": "メールアドレスは必須です",
+      "invalid": "有効なメールアドレスを入力してください",
+      "hint": "あなたのメールアドレスを第三者と共有することはありません",
+      "aria": {
+        "required": "これは必須フィールドです",
+        "invalid": "メールの形式が正しくありません。確認して再度お試しください"
+      }
+    },
+    "password": {
+      "label": "パスワード",
+      "placeholder": "パスワードを入力",
+      "required": "パスワードは必須です",
+      "tooShort": "パスワードは8文字以上である必要があります",
+      "tooWeak": "パスワードには大文字、小文字、数字を含める必要があります",
+      "hint": "混合文字を使用した強力なパスワードを選択してください",
+      "aria": {
+        "requirements": "パスワード要件：最低8文字、大文字、小文字、数字を含む",
+        "strengthWeak": "パスワード強度：弱い",
+        "strengthMedium": "パスワード強度：普通",
+        "strengthStrong": "パスワード強度：強い"
+      }
+    },
+    "firstName": "名",
+    "lastName": "姓",
+    "submit": "送信",
+    "cancel": "キャンセル",
+    "save": "変更を保存",
+    "delete": "削除",
+    "errors": {
+      "required": "このフィールドは必須です",
+      "invalidEmail": "有効なメールアドレスを入力してください",
+      "passwordMismatch": "パスワードが一致しません",
+      "passwordTooShort": "パスワードは8文字以上である必要があります",
+      "serverError": "問題が発生しました。もう一度お試しください。"
+    }
+  },
+  "dashboard": {
+    "welcome": "おかえりなさい、{{name}}さん",
+    "lastLogin": "最終ログイン：{{date}}",
+    "projects": {
+      "title": "あなたのプロジェクト",
+      "empty": "まだプロジェクトがありません",
+      "create": "新規プロジェクトを作成"
+    },
+    "stats": {
+      "totalProjects": "総プロジェクト数",
+      "activeUsers": "アクティブユーザー",
+      "deploymentsToday": "本日のデプロイ数"
+    }
+  },
+  "products": {
+    "title": "製品一覧",
+    "viewDetails": "詳細を見る",
+    "addToCart": "カートに追加",
+    "outOfStock": "在庫切れ",
+    "inStock": "在庫あり：{{count}}個",
+    "price": "価格",
+    "table": {
+      "caption": "製品カタログ",
+      "name": "製品名",
+      "price": "価格",
+      "stock": "在庫",
+      "actions": "操作",
+      "itemsInStock": "在庫{{count}}個",
+      "editProduct": "{{name}}を編集",
+      "deleteProduct": "{{name}}を削除"
+    },
+    "search": {
+      "label": "検索",
+      "placeholder": "製品を検索...",
+      "button": "検索",
+      "resultsCount": "{{count}}件の結果が見つかりました",
+      "aria": {
+        "searchInput": "名前またはカテゴリで製品を検索",
+        "submitButton": "検索クエリを送信",
+        "clearButton": "検索フィールドをクリア",
+        "resultsRegion": "検索結果",
+        "noResults": "検索結果が見つかりませんでした",
+        "loading": "検索結果を読み込み中"
+      }
+    }
+  },
+  "pricing": {
+    "free": {
+      "name": "無料",
+      "price": "¥0",
+      "period": "月額",
+      "features": [
+        "最大3プロジェクト",
+        "基本監視",
+        "コミュニティサポート"
+      ]
+    },
+    "pro": {
+      "name": "プロフェッショナル",
+      "price": "¥2,900",
+      "period": "月額",
+      "features": [
+        "無制限プロジェクト",
+        "高度な監視",
+        "優先サポート",
+        "カスタムドメイン"
+      ]
+    }
+  },
+  "footer": {
+    "company": "会社",
+    "product": "製品",
+    "resources": "リソース",
+    "legal": "法的情報",
+    "copyright": "© {{year}} 弊社. 無断転載を禁じます。",
+    "links": {
+      "blog": "ブログ",
+      "careers": "採用情報",
+      "terms": "利用規約",
+      "privacy": "プライバシーポリシー"
+    }
+  },
+  "validation": {
+    "min": "最低{{min}}文字必要です",
+    "max": "{{max}}文字を超えることはできません",
+    "between": "{{min}}文字から{{max}}文字の間である必要があります",
+    "numeric": "数値である必要があります",
+    "url": "有効なURLである必要があります"
+  },
+  "time": {
+    "justNow": "たった今",
+    "minutesAgo_one": "{{count}}分前",
+    "minutesAgo_other": "{{count}}分前",
+    "hoursAgo_one": "{{count}}時間前",
+    "hoursAgo_other": "{{count}}時間前",
+    "daysAgo_one": "{{count}}日前",
+    "daysAgo_other": "{{count}}日前"
+  },
+  "status": {
+    "loading": "コンテンツを読み込み中、お待ちください",
+    "saving": "変更を保存中",
+    "saved": "変更が正常に保存されました",
+    "error": "エラーが発生しました。もう一度お試しください",
+    "deleting": "アイテムを削除中",
+    "deleted": "アイテムが正常に削除されました",
+    "uploading": "ファイルをアップロード中：{{filename}}",
+    "uploadComplete": "ファイルがアップロードされました：{{filename}}",
+    "uploadFailed": "{{filename}}のアップロードに失敗しました。もう一度お試しください"
+  },
+  "images": {
+    "logo": {
+      "alt": "弊社ロゴ - ホームページリンク"
+    },
+    "product": {
+      "placeholder": "製品画像",
+      "loading": "製品画像を読み込み中",
+      "error": "製品画像の読み込みに失敗しました"
+    },
+    "icons": {
+      "search": "検索アイコン",
+      "menu": "メニューアイコン",
+      "close": "閉じるアイコン",
+      "user": "ユーザープロフィールアイコン",
+      "settings": "設定アイコン",
+      "notification": "{{count}}件の未読項目がある通知アイコン"
+    }
+  },
+  "modal": {
+    "close": "ダイアログを閉じる"
+  },
+  "upload": {
+    "chooseFile": "アップロードするファイルを選択"
+  },
+  "landmarks": {
+    "mainNavigation": "メインナビゲーション",
+    "primaryContent": "メインコンテンツ",
+    "searchForm": "検索フォーム",
+    "siteFooter": "サイトフッター",
+    "breadcrumb": "パンくずナビゲーション"
+  }
+}

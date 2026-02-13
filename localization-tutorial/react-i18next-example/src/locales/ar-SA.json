@@ -1,0 +1,239 @@
+{
+  "languageSwitcher": {
+    "label": "اختر اللغة",
+    "currentLanguage": "اللغة الحالية"
+  },
+  "product": {
+  "outOfStock": "غير متوفر",
+  "lowStock_one": "فقط {{count}} عنصر متبقي",
+  "lowStock_other": "فقط {{count}} عناصر متبقية",
+  "inStock_one": "{{count}} عنصر في المخزون",
+  "inStock_other": "{{count}} عنصر في المخزون",
+  "addToCart": "أضف إلى السلة",
+  "notifyMe": "أعلمني عند التوفر",
+  "stockAvailability": "توفر المخزون"
+  },
+  "search": {
+  "label": "بحث",
+  "placeholder": "ابحث عن المنتجات...",
+  "button": "بحث",
+  "searching": "جاري البحث...",
+  "clear": "مسح",
+  "resultsFound_one": "تم العثور على {{count}} نتيجة",
+  "resultsFound_other": "تم العثور على {{count}} نتيجة",
+  "noResults": "لم يتم العثور على نتائج"
+  },
+  "common": {
+  "currentLanguage": "اللغة الحالية",
+  "languageSwitcherHelp": "استخدم القائمة المنسدلة لتغيير اللغة. يمكنك أيضًا استخدام شريط الأدوات في الأعلى لتغيير اللغة العامة."
+  },
+  "navigation": {
+    "home": "الرئيسية",
+    "about": "من نحن",
+    "products": "المنتجات",
+    "pricing": "الأسعار",
+    "contact": "اتصل بنا",
+    "login": "تسجيل الدخول",
+    "signup": "التسجيل"
+  },
+  "hero": {
+    "title": "ابنِ برمجيات أفضل، بشكل أسرع",
+    "subtitle": "المنصة الشاملة لفرق التطوير الحديثة",
+    "cta": "ابدأ مجاناً",
+    "learnMore": "اعرف المزيد"
+  },
+  "features": {
+    "collaboration": {
+      "title": "التعاون في الوقت الفعلي",
+      "description": "اعمل بسلاسة مع فريقك، بغض النظر عن موقعهم"
+    },
+    "deployment": {
+      "title": "النشر بنقرة واحدة",
+      "description": "انشر إلى الإنتاج في ثوانٍ مع خطوط CI/CD الآلية"
+    },
+    "monitoring": {
+      "title": "المراقبة المتقدمة",
+      "description": "تتبع الأداء والأخطاء وسلوك المستخدم في الوقت الفعلي"
+    }
+  },
+  "forms": {
+    "email": {
+      "label": "عنوان البريد الإلكتروني",
+      "placeholder": "your@email.com",
+      "required": "عنوان البريد الإلكتروني مطلوب",
+      "invalid": "يرجى إدخال عنوان بريد إلكتروني صالح",
+      "hint": "لن نشارك بريدك الإلكتروني مع أي شخص",
+      "aria": {
+        "required": "هذا حقل مطلوب",
+        "invalid": "تنسيق البريد الإلكتروني غير صحيح. يرجى التحقق والمحاولة مرة أخرى"
+      }
+    },
+    "password": {
+      "label": "كلمة المرور",
+      "placeholder": "أدخل كلمة المرور",
+      "required": "كلمة المرور مطلوبة",
+      "tooShort": "يجب أن تحتوي كلمة المرور على 8 أحرف على الأقل",
+      "tooWeak": "يجب أن تتضمن كلمة المرور أحرفاً كبيرة وصغيرة وأرقام",
+      "hint": "اختر كلمة مرور قوية بأحرف مختلطة",
+      "aria": {
+        "requirements": "متطلبات كلمة المرور: 8 أحرف على الأقل، بما في ذلك أحرف كبيرة وصغيرة وأرقام",
+        "strengthWeak": "قوة كلمة المرور: ضعيفة",
+        "strengthMedium": "قوة كلمة المرور: متوسطة",
+        "strengthStrong": "قوة كلمة المرور: قوية"
+      }
+    },
+    "firstName": "الاسم الأول",
+    "lastName": "اسم العائلة",
+    "submit": "إرسال",
+    "cancel": "إلغاء",
+    "save": "حفظ التغييرات",
+    "delete": "حذف",
+    "errors": {
+      "required": "هذا الحقل مطلوب",
+      "invalidEmail": "يرجى إدخال عنوان بريد إلكتروني صالح",
+      "passwordMismatch": "كلمات المرور غير متطابقة",
+      "passwordTooShort": "يجب أن تحتوي كلمة المرور على 8 أحرف على الأقل",
+      "serverError": "حدث خطأ ما. يرجى المحاولة مرة أخرى."
+    }
+  },
+  "dashboard": {
+    "welcome": "مرحباً بعودتك، {{name}}",
+    "lastLogin": "آخر تسجيل دخول: {{date}}",
+    "projects": {
+      "title": "مشاريعك",
+      "empty": "ليس لديك أي مشاريع بعد",
+      "create": "إنشاء مشروع جديد"
+    },
+    "stats": {
+      "totalProjects": "إجمالي المشاريع",
+      "activeUsers": "المستخدمون النشطون",
+      "deploymentsToday": "عمليات النشر اليوم"
+    }
+  },
+  "products": {
+    "title": "منتجاتنا",
+    "viewDetails": "عرض التفاصيل",
+    "addToCart": "أضف إلى السلة",
+    "outOfStock": "نفدت الكمية",
+    "inStock": "متوفر: {{count}} قطعة",
+    "price": "السعر",
+    "table": {
+      "caption": "كتالوج المنتجات",
+      "name": "اسم المنتج",
+      "price": "السعر",
+      "stock": "المخزون",
+      "actions": "الإجراءات",
+      "itemsInStock": "{{count}} قطعة في المخزون",
+      "editProduct": "تحرير {{name}}",
+      "deleteProduct": "حذف {{name}}"
+    },
+    "search": {
+      "label": "بحث",
+      "placeholder": "ابحث عن المنتجات...",
+      "button": "بحث",
+      "resultsCount": "تم العثور على {{count}} نتيجة",
+      "aria": {
+        "searchInput": "البحث عن المنتجات بالاسم أو الفئة",
+        "submitButton": "إرسال استعلام البحث",
+        "clearButton": "مسح حقل البحث",
+        "resultsRegion": "نتائج البحث",
+        "noResults": "لم يتم العثور على نتائج لبحثك",
+        "loading": "جارٍ تحميل نتائج البحث"
+      }
+    }
+  },
+  "pricing": {
+    "free": {
+      "name": "مجاني",
+      "price": "0 ريال",
+      "period": "شهرياً",
+      "features": [
+        "حتى 3 مشاريع",
+        "مراقبة أساسية",
+        "دعم المجتمع"
+      ]
+    },
+    "pro": {
+      "name": "احترافي",
+      "price": "109 ريال",
+      "period": "شهرياً",
+      "features": [
+        "مشاريع غير محدودة",
+        "مراقبة متقدمة",
+        "دعم ذو أولوية",
+        "نطاقات مخصصة"
+      ]
+    }
+  },
+  "footer": {
+    "company": "الشركة",
+    "product": "المنتج",
+    "resources": "الموارد",
+    "legal": "قانوني",
+    "copyright": "© {{year}} شركتك. جميع الحقوق محفوظة.",
+    "links": {
+      "blog": "المدونة",
+      "careers": "الوظائف",
+      "terms": "شروط الخدمة",
+      "privacy": "سياسة الخصوصية"
+    }
+  },
+  "validation": {
+    "min": "يجب أن يحتوي على {{min}} حرفاً على الأقل",
+    "max": "لا يمكن أن يتجاوز {{max}} حرفاً",
+    "between": "يجب أن يكون بين {{min}} و {{max}} حرفاً",
+    "numeric": "يجب أن يكون رقماً",
+    "url": "يجب أن يكون عنوان URL صالحاً"
+  },
+  "time": {
+    "justNow": "الآن",
+    "minutesAgo": "منذ {{count}} دقيقة",
+    "minutesAgo_plural": "منذ {{count}} دقيقة",
+    "hoursAgo": "منذ {{count}} ساعة",
+    "hoursAgo_plural": "منذ {{count}} ساعة",
+    "daysAgo": "منذ {{count}} يوم",
+    "daysAgo_plural": "منذ {{count}} يوم"
+  },
+  "status": {
+    "loading": "جارٍ تحميل المحتوى، يرجى الانتظار",
+    "saving": "جارٍ حفظ التغييرات",
+    "saved": "تم حفظ التغييرات بنجاح",
+    "error": "حدث خطأ. يرجى المحاولة مرة أخرى",
+    "deleting": "جارٍ حذف العنصر",
+    "deleted": "تم حذف العنصر بنجاح",
+    "uploading": "جارٍ رفع الملف: {{filename}}",
+    "uploadComplete": "تم رفع الملف: {{filename}}",
+    "uploadFailed": "فشل رفع {{filename}}. يرجى المحاولة مرة أخرى"
+  },
+  "images": {
+    "logo": {
+      "alt": "شعار شركتك - رابط الصفحة الرئيسية"
+    },
+    "product": {
+      "placeholder": "صورة المنتج",
+      "loading": "جارٍ تحميل صورة المنتج",
+      "error": "فشل تحميل صورة المنتج"
+    },
+    "icons": {
+      "search": "أيقونة البحث",
+      "menu": "أيقونة القائمة",
+      "close": "أيقونة الإغلاق",
+      "user": "أيقونة ملف المستخدم",
+      "settings": "أيقونة الإعدادات",
+      "notification": "أيقونة الإشعارات مع {{count}} عنصر غير مقروء"
+    }
+  },
+  "modal": {
+    "close": "إغلاق مربع الحوار"
+  },
+  "upload": {
+    "chooseFile": "اختر ملفاً للرفع"
+  },
+  "landmarks": {
+    "mainNavigation": "التنقل الرئيسي",
+    "primaryContent": "المحتوى الأساسي",
+    "searchForm": "نموذج البحث",
+    "siteFooter": "تذييل الموقع",
+    "breadcrumb": "التنقل التفصيلي"
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "languageSwitcher": {
+    "label": "Sprache auswählen",
+    "currentLanguage": "Aktuelle Sprache"
+  },
+  "product": {
+    "outOfStock": "Ausverkauft",
+    "lowStock_one": "Nur noch {{count}} Stück verfügbar",
+    "lowStock_other": "Nur noch {{count}} Stück verfügbar",
+    "inStock_one": "{{count}} Stück auf Lager",
+    "inStock_other": "{{count}} Stück auf Lager",
+    "addToCart": "In den Warenkorb",
+    "notifyMe": "Benachrichtigen, wenn wieder verfügbar",
+    "stockAvailability": "Lagerverfügbarkeit"
+  },
+  "search": {
+    "label": "Suchen",
+    "placeholder": "Produkte suchen...",
+    "button": "Suchen",
+    "searching": "Suche läuft...",
+    "clear": "Löschen",
+    "resultsFound_one": "{{count}} Ergebnis gefunden",
+    "resultsFound_other": "{{count}} Ergebnisse gefunden",
+    "noResults": "Keine Ergebnisse gefunden"
+  },
+  "common": {
+    "search": "Suchen",
+    "searching": "Suche läuft...",
+    "resultsFound": "{{count}} Ergebnisse gefunden",
+    "noResults": "Keine Ergebnisse gefunden",
+    "selectLanguage": "Sprache auswählen",
+    "currentLanguage": "Aktuelle Sprache",
+    "languageSwitcherHelp": "Verwenden Sie das Dropdown-Menü, um die Sprache zu wechseln. Sie können auch die Symbolleiste oben verwenden, um das globale Gebietsschema zu ändern."
+  },
+  "navigation": {
+    "home": "Startseite",
+    "about": "Über Uns",
+    "products": "Produkte",
+    "pricing": "Preise",
+    "contact": "Kontakt",
+    "login": "Anmelden",
+    "signup": "Registrieren"
+  },
+  "hero": {
+    "title": "Bessere Software Schneller Erstellen",
+    "subtitle": "Die All-in-One-Plattform für moderne Entwicklungsteams",
+    "cta": "Kostenlos Starten",
+    "learnMore": "Mehr Erfahren"
+  },
+  "features": {
+    "collaboration": {
+      "title": "Echtzeit-Zusammenarbeit",
+      "description": "Arbeiten Sie nahtlos mit Ihrem Team zusammen, egal wo sie sind"
+    },
+    "deployment": {
+      "title": "Ein-Klick-Bereitstellung",
+      "description": "In Sekunden in Produktion gehen mit automatisierten CI/CD-Pipelines"
+    },
+    "monitoring": {
+      "title": "Erweiterte Überwachung",
+      "description": "Verfolgen Sie Leistung, Fehler und Benutzerverhalten in Echtzeit"
+    }
+  },
+  "forms": {
+    "email": {
+      "label": "E-Mail-Adresse",
+      "placeholder": "ihre@email.de",
+      "required": "E-Mail-Adresse ist erforderlich",
+      "invalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+      "hint": "Wir werden Ihre E-Mail niemals mit anderen teilen",
+      "aria": {
+        "required": "Dies ist ein Pflichtfeld",
+        "invalid": "E-Mail-Format ist falsch. Bitte überprüfen und erneut versuchen"
+      }
+    },
+    "password": {
+      "label": "Passwort",
+      "placeholder": "Geben Sie Ihr Passwort ein",
+      "required": "Passwort ist erforderlich",
+      "tooShort": "Passwort muss mindestens 8 Zeichen lang sein",
+      "tooWeak": "Passwort muss Groß-, Kleinbuchstaben und Zahlen enthalten",
+      "hint": "Wählen Sie ein sicheres Passwort mit gemischten Zeichen",
+      "aria": {
+        "requirements": "Passwortanforderungen: mindestens 8 Zeichen, einschließlich Groß-, Kleinbuchstaben und Zahlen",
+        "strengthWeak": "Passwortstärke: schwach",
+        "strengthMedium": "Passwortstärke: mittel",
+        "strengthStrong": "Passwortstärke: stark"
+      }
+    },
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "submit": "Absenden",
+    "cancel": "Abbrechen",
+    "save": "Änderungen Speichern",
+    "delete": "Löschen",
+    "errors": {
+      "required": "Dieses Feld ist erforderlich",
+      "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+      "passwordMismatch": "Passwörter stimmen nicht überein",
+      "passwordTooShort": "Passwort muss mindestens 8 Zeichen lang sein",
+      "serverError": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
+    }
+  },
+  "dashboard": {
+    "welcome": "Willkommen zurück, {{name}}",
+    "lastLogin": "Letzte Anmeldung: {{date}}",
+    "projects": {
+      "title": "Ihre Projekte",
+      "empty": "Sie haben noch keine Projekte",
+      "create": "Neues Projekt Erstellen"
+    },
+    "stats": {
+      "totalProjects": "Projekte Gesamt",
+      "activeUsers": "Aktive Benutzer",
+      "deploymentsToday": "Bereitstellungen Heute"
+    }
+  },
+  "products": {
+    "title": "Unsere Produkte",
+    "viewDetails": "Details Anzeigen",
+    "addToCart": "In den Warenkorb",
+    "outOfStock": "Nicht Verfügbar",
+    "inStock": "Auf Lager: {{count}} verfügbar",
+    "price": "Preis",
+    "table": {
+      "caption": "Produktkatalog",
+      "name": "Produktname",
+      "price": "Preis",
+      "stock": "Lagerbestand",
+      "actions": "Aktionen",
+      "itemsInStock": "{{count}} Artikel auf Lager",
+      "editProduct": "{{name}} Bearbeiten",
+      "deleteProduct": "{{name}} Löschen"
+    },
+    "search": {
+      "label": "Suchen",
+      "placeholder": "Produkte suchen...",
+      "button": "Suchen",
+      "resultsCount": "{{count}} Ergebnisse gefunden",
+      "aria": {
+        "searchInput": "Produkte nach Name oder Kategorie suchen",
+        "submitButton": "Suchanfrage absenden",
+        "clearButton": "Suchfeld leeren",
+        "resultsRegion": "Suchergebnisse",
+        "noResults": "Keine Ergebnisse für Ihre Suche gefunden",
+        "loading": "Suchergebnisse werden geladen"
+      }
+    }
+  },
+  "pricing": {
+    "free": {
+      "name": "Kostenlos",
+      "price": "0€",
+      "period": "pro Monat",
+      "features": [
+        "Bis zu 3 Projekte",
+        "Basis-Überwachung",
+        "Community-Support"
+      ]
+    },
+    "pro": {
+      "name": "Professional",
+      "price": "29€",
+      "period": "pro Monat",
+      "features": [
+        "Unbegrenzte Projekte",
+        "Erweiterte Überwachung",
+        "Prioritäts-Support",
+        "Benutzerdefinierte Domains"
+      ]
+    }
+  },
+  "footer": {
+    "company": "Unternehmen",
+    "product": "Produkt",
+    "resources": "Ressourcen",
+    "legal": "Rechtliches",
+    "copyright": "© {{year}} Unser Unternehmen. Alle Rechte vorbehalten.",
+    "links": {
+      "blog": "Blog",
+      "careers": "Karriere",
+      "terms": "Nutzungsbedingungen",
+      "privacy": "Datenschutzerklärung"
+    }
+  },
+  "validation": {
+    "min": "Muss mindestens {{min}} Zeichen lang sein",
+    "max": "Darf {{max}} Zeichen nicht überschreiten",
+    "between": "Muss zwischen {{min}} und {{max}} Zeichen lang sein",
+    "numeric": "Muss eine Zahl sein",
+    "url": "Muss eine gültige URL sein"
+  },
+  "time": {
+    "justNow": "gerade eben",
+    "minutesAgo_one": "vor {{count}} Minute",
+    "minutesAgo_other": "vor {{count}} Minuten",
+    "hoursAgo_one": "vor {{count}} Stunde",
+    "hoursAgo_other": "vor {{count}} Stunden",
+    "daysAgo_one": "vor {{count}} Tag",
+    "daysAgo_other": "vor {{count}} Tagen"
+  },
+  "status": {
+    "loading": "Inhalt wird geladen, bitte warten",
+    "saving": "Ihre Änderungen werden gespeichert",
+    "saved": "Änderungen erfolgreich gespeichert",
+    "error": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut",
+    "deleting": "Element wird gelöscht",
+    "deleted": "Element erfolgreich gelöscht",
+    "uploading": "Datei wird hochgeladen: {{filename}}",
+    "uploadComplete": "Datei hochgeladen: {{filename}}",
+    "uploadFailed": "Hochladen von {{filename}} fehlgeschlagen. Bitte versuchen Sie es erneut"
+  },
+  "images": {
+    "logo": {
+      "alt": "Unser Unternehmen Logo - Link zur Startseite"
+    },
+    "product": {
+      "placeholder": "Produktbild",
+      "loading": "Produktbild wird geladen",
+      "error": "Produktbild konnte nicht geladen werden"
+    },
+    "icons": {
+      "search": "Suchsymbol",
+      "menu": "Menüsymbol",
+      "close": "Schließen-Symbol",
+      "user": "Benutzerprofil-Symbol",
+      "settings": "Einstellungs-Symbol",
+      "notification": "Benachrichtigungssymbol mit {{count}} ungelesenen Elementen"
+    }
+  },
+  "modal": {
+    "close": "Dialog schließen"
+  },
+  "upload": {
+    "chooseFile": "Datei zum Hochladen auswählen"
+  },
+  "landmarks": {
+    "mainNavigation": "Hauptnavigation",
+    "primaryContent": "Hauptinhalt",
+    "searchForm": "Suchformular",
+    "siteFooter": "Seitenfuß",
+    "breadcrumb": "Breadcrumb-Navigation"
+  }
+}

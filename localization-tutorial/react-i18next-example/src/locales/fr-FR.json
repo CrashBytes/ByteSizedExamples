@@ -1,0 +1,244 @@
+{
+  "languageSwitcher": {
+    "label": "Sélectionner la langue",
+    "currentLanguage": "Langue actuelle"
+  },
+  "product": {
+    "outOfStock": "Rupture de stock",
+    "lowStock_one": "Seulement {{count}} article restant",
+    "lowStock_other": "Seulement {{count}} articles restants",
+    "inStock_one": "{{count}} article en stock",
+    "inStock_other": "{{count}} articles en stock",
+    "addToCart": "Ajouter au panier",
+    "notifyMe": "Notifier lors de la disponibilité",
+    "stockAvailability": "Disponibilité du stock"
+  },
+  "search": {
+    "label": "Rechercher",
+    "placeholder": "Rechercher des produits...",
+    "button": "Rechercher",
+    "searching": "Recherche en cours...",
+    "clear": "Effacer",
+    "resultsFound_one": "{{count}} résultat trouvé",
+    "resultsFound_other": "{{count}} résultats trouvés",
+    "noResults": "Aucun résultat trouvé"
+  },
+  "common": {
+    "search": "Rechercher",
+    "searching": "Recherche en cours...",
+    "resultsFound": "{{count}} résultats trouvés",
+    "noResults": "Aucun résultat trouvé",
+    "selectLanguage": "Sélectionner la langue",
+    "currentLanguage": "Langue Actuelle",
+    "languageSwitcherHelp": "Utilisez le menu déroulant pour changer de langue. Vous pouvez également utiliser la barre d'outils en haut pour changer la locale globale."
+  },
+  "navigation": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "products": "Produits",
+    "pricing": "Tarifs",
+    "contact": "Contact",
+    "login": "Se Connecter",
+    "signup": "S'inscrire"
+  },
+  "hero": {
+    "title": "Créez de Meilleurs Logiciels, Plus Rapidement",
+    "subtitle": "La plateforme tout-en-un pour les équipes de développement modernes",
+    "cta": "Commencer Gratuitement",
+    "learnMore": "En Savoir Plus"
+  },
+  "features": {
+    "collaboration": {
+      "title": "Collaboration en Temps Réel",
+      "description": "Travaillez en harmonie avec votre équipe, peu importe où elle se trouve"
+    },
+    "deployment": {
+      "title": "Déploiement en Un Clic",
+      "description": "Déployez en production en quelques secondes avec des pipelines CI/CD automatisés"
+    },
+    "monitoring": {
+      "title": "Surveillance Avancée",
+      "description": "Suivez les performances, les erreurs et le comportement des utilisateurs en temps réel"
+    }
+  },
+  "forms": {
+    "email": {
+      "label": "Adresse E-mail",
+      "placeholder": "votre@email.com",
+      "required": "L'adresse e-mail est requise",
+      "invalid": "Veuillez entrer une adresse e-mail valide",
+      "hint": "Nous ne partagerons jamais votre e-mail avec qui que ce soit",
+      "aria": {
+        "required": "Ceci est un champ obligatoire",
+        "invalid": "Le format de l'e-mail est incorrect. Veuillez vérifier et réessayer"
+      }
+    },
+    "password": {
+      "label": "Mot de Passe",
+      "placeholder": "Entrez votre mot de passe",
+      "required": "Le mot de passe est requis",
+      "tooShort": "Le mot de passe doit contenir au moins 8 caractères",
+      "tooWeak": "Le mot de passe doit inclure des majuscules, des minuscules et des chiffres",
+      "hint": "Choisissez un mot de passe fort avec des caractères variés",
+      "aria": {
+        "requirements": "Exigences du mot de passe : minimum 8 caractères, incluant des lettres majuscules, minuscules et des chiffres",
+        "strengthWeak": "Force du mot de passe : faible",
+        "strengthMedium": "Force du mot de passe : moyenne",
+        "strengthStrong": "Force du mot de passe : forte"
+      }
+    },
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "submit": "Soumettre",
+    "cancel": "Annuler",
+    "save": "Enregistrer les Modifications",
+    "delete": "Supprimer",
+    "errors": {
+      "required": "Ce champ est obligatoire",
+      "invalidEmail": "Veuillez entrer une adresse e-mail valide",
+      "passwordMismatch": "Les mots de passe ne correspondent pas",
+      "passwordTooShort": "Le mot de passe doit contenir au moins 8 caractères",
+      "serverError": "Quelque chose s'est mal passé. Veuillez réessayer."
+    }
+  },
+  "dashboard": {
+    "welcome": "Bon retour, {{name}}",
+    "lastLogin": "Dernière connexion : {{date}}",
+    "projects": {
+      "title": "Vos Projets",
+      "empty": "Vous n'avez pas encore de projets",
+      "create": "Créer un Nouveau Projet"
+    },
+    "stats": {
+      "totalProjects": "Projets Totaux",
+      "activeUsers": "Utilisateurs Actifs",
+      "deploymentsToday": "Déploiements Aujourd'hui"
+    }
+  },
+  "products": {
+    "title": "Nos Produits",
+    "viewDetails": "Voir les Détails",
+    "addToCart": "Ajouter au Panier",
+    "outOfStock": "Rupture de Stock",
+    "inStock": "En Stock : {{count}} disponibles",
+    "price": "Prix",
+    "table": {
+      "caption": "Catalogue de produits",
+      "name": "Nom du Produit",
+      "price": "Prix",
+      "stock": "Stock",
+      "actions": "Actions",
+      "itemsInStock": "{{count}} articles en stock",
+      "editProduct": "Modifier {{name}}",
+      "deleteProduct": "Supprimer {{name}}"
+    },
+    "search": {
+      "label": "Rechercher",
+      "placeholder": "Rechercher des produits...",
+      "button": "Rechercher",
+      "resultsCount": "{{count}} résultats trouvés",
+      "aria": {
+        "searchInput": "Rechercher des produits par nom ou catégorie",
+        "submitButton": "Soumettre la requête de recherche",
+        "clearButton": "Effacer le champ de recherche",
+        "resultsRegion": "Résultats de recherche",
+        "noResults": "Aucun résultat trouvé pour votre recherche",
+        "loading": "Chargement des résultats de recherche"
+      }
+    }
+  },
+  "pricing": {
+    "free": {
+      "name": "Gratuit",
+      "price": "0€",
+      "period": "par mois",
+      "features": [
+        "Jusqu'à 3 projets",
+        "Surveillance de base",
+        "Support communautaire"
+      ]
+    },
+    "pro": {
+      "name": "Professionnel",
+      "price": "29€",
+      "period": "par mois",
+      "features": [
+        "Projets illimités",
+        "Surveillance avancée",
+        "Support prioritaire",
+        "Domaines personnalisés"
+      ]
+    }
+  },
+  "footer": {
+    "company": "Entreprise",
+    "product": "Produit",
+    "resources": "Ressources",
+    "legal": "Légal",
+    "copyright": "© {{year}} Notre Entreprise. Tous droits réservés.",
+    "links": {
+      "blog": "Blog",
+      "careers": "Carrières",
+      "terms": "Conditions d'Utilisation",
+      "privacy": "Politique de Confidentialité"
+    }
+  },
+  "validation": {
+    "min": "Doit contenir au moins {{min}} caractères",
+    "max": "Ne peut pas dépasser {{max}} caractères",
+    "between": "Doit contenir entre {{min}} et {{max}} caractères",
+    "numeric": "Doit être un nombre",
+    "url": "Doit être une URL valide"
+  },
+  "time": {
+    "justNow": "à l'instant",
+    "minutesAgo_one": "il y a {{count}} minute",
+    "minutesAgo_other": "il y a {{count}} minutes",
+    "hoursAgo_one": "il y a {{count}} heure",
+    "hoursAgo_other": "il y a {{count}} heures",
+    "daysAgo_one": "il y a {{count}} jour",
+    "daysAgo_other": "il y a {{count}} jours"
+  },
+  "status": {
+    "loading": "Chargement du contenu, veuillez patienter",
+    "saving": "Enregistrement de vos modifications",
+    "saved": "Modifications enregistrées avec succès",
+    "error": "Une erreur s'est produite. Veuillez réessayer",
+    "deleting": "Suppression de l'élément",
+    "deleted": "Élément supprimé avec succès",
+    "uploading": "Téléchargement du fichier : {{filename}}",
+    "uploadComplete": "Fichier téléchargé : {{filename}}",
+    "uploadFailed": "Échec du téléchargement de {{filename}}. Veuillez réessayer"
+  },
+  "images": {
+    "logo": {
+      "alt": "Logo Notre Entreprise - Lien vers la page d'accueil"
+    },
+    "product": {
+      "placeholder": "Image du produit",
+      "loading": "Chargement de l'image du produit",
+      "error": "Échec du chargement de l'image du produit"
+    },
+    "icons": {
+      "search": "Icône de recherche",
+      "menu": "Icône de menu",
+      "close": "Icône de fermeture",
+      "user": "Icône de profil utilisateur",
+      "settings": "Icône de paramètres",
+      "notification": "Icône de notifications avec {{count}} éléments non lus"
+    }
+  },
+  "modal": {
+    "close": "Fermer la boîte de dialogue"
+  },
+  "upload": {
+    "chooseFile": "Choisir un fichier à télécharger"
+  },
+  "landmarks": {
+    "mainNavigation": "Navigation principale",
+    "primaryContent": "Contenu principal",
+    "searchForm": "Formulaire de recherche",
+    "siteFooter": "Pied de page du site",
+    "breadcrumb": "Navigation par fil d'Ariane"
+  }
+}
