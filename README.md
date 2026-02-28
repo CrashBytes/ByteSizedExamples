@@ -29,6 +29,7 @@ A collection of tutorial companion code from [CrashBytes](https://crashbytes.com
 | [whitelabel-app](./whitelabel-app) | [White-Label Mobile Apps Strategy](https://crashbytes.com/articles/whitelabel-mobile-apps-when-why-implementation-strategy-2025) | React Native |
 | [zsh-setup](./zsh-setup) | [Production Zsh Setup with Oh My Zsh](https://crashbytes.com/articles/tutorial-production-zsh-setup-oh-my-zsh-developer-productivity-2025) | Zsh, Shell |
 | [aws-bedrock-getting-started](./aws-bedrock-getting-started) | [AWS Bedrock Getting Started with Python](https://crashbytes.com/tutorials/aws-bedrock-getting-started-python-tutorial-2026) | Python, boto3, AWS Bedrock |
+| [ai-pr-reviewer-csharp](./ai-pr-reviewer-csharp) | AI PR Reviewer with AWS Bedrock (3-part YouTube series) | C#, .NET 8, AWS Bedrock, GitHub Actions |
 
 ## Quick Start
 
