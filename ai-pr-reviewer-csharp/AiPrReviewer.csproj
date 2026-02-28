@@ -9,8 +9,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Tests\**" />
+    <None Remove="Tests\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AWSSDK.BedrockRuntime" Version="3.*" />
     <PackageReference Include="DotNetEnv" Version="3.*" />
+    <PackageReference Include="Octokit" Version="13.*" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,0 +1,14 @@
+ai-pr-review:
+  image: mcr.microsoft.com/dotnet/sdk:8.0
+  stage: test
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+  script:
+    - cd ai-pr-reviewer-csharp
+    - dotnet restore
+    - dotnet run -- --branch $CI_MERGE_REQUEST_TARGET_BRANCH_NAME --platform gitlab
+  variables:
+    AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+    AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+    AWS_REGION: us-east-1
+    GITLAB_TOKEN: $GITLAB_TOKEN
