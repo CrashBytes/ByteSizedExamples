@@ -1,14 +1,15 @@
-using System.Diagnostics;
-using System.Text.RegularExpressions;
+using DotNetEnv;
 
 namespace AiPrReviewer;
 
 class Program
 {
-    static int Main(string[] args)
+    static async Task<int> Main(string[] args)
     {
         var repoPath = GetArgValue(args, "--repo") ?? Directory.GetCurrentDirectory();
         var branch = GetArgValue(args, "--branch") ?? "main";
+        var promptVersion = GetArgValue(args, "--prompt") ?? "v3";
+        var modelId = GetArgValue(args, "--model");
 
         if (args.Contains("--help") || args.Contains("-h"))
         {
@@ -16,9 +17,14 @@ class Program
             return 0;
         }
 
+        // Load .env file if present
+        var envPath = Path.Combine(Directory.GetCurrentDirectory(), ".env");
+        if (File.Exists(envPath))
+            Env.Load(envPath);
+
         Console.WriteLine("=================================================");
         Console.WriteLine("  AI PR Reviewer — CrashBytes");
-        Console.WriteLine("  Part 1: Git Diff Analysis");
+        Console.WriteLine("  Part 2: AWS Bedrock Integration");
         Console.WriteLine("=================================================");
         Console.WriteLine();
 
@@ -31,12 +37,14 @@ class Program
             return 1;
         }
 
-        Console.WriteLine($"Repository: {repoPath}");
-        Console.WriteLine($"Base branch: {branch}");
+        Console.WriteLine($"Repository:     {repoPath}");
+        Console.WriteLine($"Base branch:    {branch}");
+        Console.WriteLine($"Prompt version: {promptVersion}");
+        Console.WriteLine($"Model:          {modelId ?? BedrockClient.DefaultModel}");
         Console.WriteLine();
 
         // Check if branch exists
-        var branchCheck = RunGitCommand(repoPath, $"rev-parse --verify {branch}");
+        var branchCheck = DiffParser.RunGitCommand(repoPath, $"rev-parse --verify {branch}");
         if (!branchCheck.Success)
         {
             Console.ForegroundColor = ConsoleColor.Red;
@@ -46,7 +54,7 @@ class Program
         }
 
         // Get the diff
-        var diffResult = RunGitCommand(repoPath, $"diff {branch}...HEAD");
+        var diffResult = DiffParser.RunGitCommand(repoPath, $"diff {branch}...HEAD");
         if (!diffResult.Success)
         {
             Console.ForegroundColor = ConsoleColor.Red;
@@ -64,13 +72,51 @@ class Program
         }
 
         // Parse the diff
-        var files = ParseDiff(diffResult.Output);
+        var parsed = DiffParser.Parse(diffResult.Output);
 
-        // Print summary
-        PrintSummary(files);
+        // Print diff summary
+        PrintSummary(parsed);
 
-        // Print per-file breakdown
-        PrintFileBreakdown(files);
+        // Send to Bedrock for AI review
+        Console.ForegroundColor = ConsoleColor.Cyan;
+        Console.WriteLine("-------------------------------------------------");
+        Console.WriteLine("  AI CODE REVIEW");
+        Console.WriteLine("-------------------------------------------------");
+        Console.ResetColor();
+        Console.WriteLine();
+        Console.WriteLine("Sending diff to AWS Bedrock...");
+        Console.WriteLine();
+
+        try
+        {
+            var bedrock = new BedrockClient();
+            var review = await bedrock.ReviewDiffAsync(parsed.RawDiff, promptVersion, modelId);
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Review complete!");
+            Console.ResetColor();
+            Console.WriteLine($"  Model:         {review.ModelId}");
+            Console.WriteLine($"  Prompt:        {review.PromptVersion}");
+            Console.WriteLine($"  Input tokens:  {review.InputTokens:N0}");
+            Console.WriteLine($"  Output tokens: {review.OutputTokens:N0}");
+            Console.WriteLine();
+            Console.WriteLine("-------------------------------------------------");
+            Console.WriteLine();
+            Console.WriteLine(review.RawResponse);
+            Console.WriteLine();
+        }
+        catch (Exception ex)
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine($"Error calling AWS Bedrock: {ex.Message}");
+            Console.ResetColor();
+            Console.WriteLine();
+            Console.WriteLine("Make sure you have configured your AWS credentials:");
+            Console.WriteLine("  1. Copy .env.example to .env");
+            Console.WriteLine("  2. Add your AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY");
+            Console.WriteLine("  3. Ensure your IAM user has bedrock:InvokeModel permissions");
+            return 1;
+        }
 
         return 0;
     }
@@ -92,171 +138,29 @@ class Program
         Console.WriteLine("Usage: dotnet run -- [options]");
         Console.WriteLine();
         Console.WriteLine("Options:");
-        Console.WriteLine("  --repo <path>     Path to the git repository (default: current directory)");
-        Console.WriteLine("  --branch <name>   Base branch to diff against (default: main)");
-        Console.WriteLine("  --help, -h        Show this help message");
+        Console.WriteLine("  --repo <path>       Path to the git repository (default: current directory)");
+        Console.WriteLine("  --branch <name>     Base branch to diff against (default: main)");
+        Console.WriteLine("  --prompt <version>  Prompt version: v1, v2, or v3 (default: v3)");
+        Console.WriteLine("  --model <id>        Bedrock model ID (default: Claude 3.5 Haiku)");
+        Console.WriteLine("  --help, -h          Show this help message");
     }
 
-    static (bool Success, string Output, string Error) RunGitCommand(string workingDir, string arguments)
+    static void PrintSummary(DiffResult parsed)
     {
-        var psi = new ProcessStartInfo
-        {
-            FileName = "git",
-            Arguments = arguments,
-            WorkingDirectory = workingDir,
-            RedirectStandardOutput = true,
-            RedirectStandardError = true,
-            UseShellExecute = false,
-            CreateNoWindow = true
-        };
-
-        try
-        {
-            using var process = Process.Start(psi);
-            if (process == null)
-                return (false, "", "Failed to start git process.");
-
-            var output = process.StandardOutput.ReadToEnd();
-            var error = process.StandardError.ReadToEnd();
-            process.WaitForExit();
-
-            return (process.ExitCode == 0, output, error);
-        }
-        catch (Exception ex)
-        {
-            return (false, "", $"Failed to run git: {ex.Message}");
-        }
-    }
-
-    static List<FileDiff> ParseDiff(string diffOutput)
-    {
-        var files = new List<FileDiff>();
-        FileDiff? current = null;
-
-        foreach (var line in diffOutput.Split('\n'))
-        {
-            // New file header
-            if (line.StartsWith("diff --git"))
-            {
-                current = new FileDiff();
-                files.Add(current);
-                continue;
-            }
-
-            if (current == null)
-                continue;
-
-            // File paths
-            if (line.StartsWith("--- a/"))
-            {
-                current.OldPath = line[6..];
-            }
-            else if (line.StartsWith("--- /dev/null"))
-            {
-                current.IsNew = true;
-            }
-            else if (line.StartsWith("+++ b/"))
-            {
-                current.NewPath = line[6..];
-            }
-            else if (line.StartsWith("+++ /dev/null"))
-            {
-                current.IsDeleted = true;
-            }
-            // Hunk header
-            else if (line.StartsWith("@@"))
-            {
-                current.HunkCount++;
-            }
-            // Added line
-            else if (line.StartsWith("+") && !line.StartsWith("+++"))
-            {
-                current.Additions++;
-            }
-            // Removed line
-            else if (line.StartsWith("-") && !line.StartsWith("---"))
-            {
-                current.Deletions++;
-            }
-        }
-
-        return files;
-    }
-
-    static void PrintSummary(List<FileDiff> files)
-    {
-        var totalAdditions = files.Sum(f => f.Additions);
-        var totalDeletions = files.Sum(f => f.Deletions);
-        var newFiles = files.Count(f => f.IsNew);
-        var deletedFiles = files.Count(f => f.IsDeleted);
-        var modifiedFiles = files.Count - newFiles - deletedFiles;
-
         Console.ForegroundColor = ConsoleColor.Cyan;
         Console.WriteLine("-------------------------------------------------");
         Console.WriteLine("  DIFF SUMMARY");
         Console.WriteLine("-------------------------------------------------");
         Console.ResetColor();
-        Console.WriteLine($"  Files changed:  {files.Count}");
+        Console.WriteLine($"  Files changed:  {parsed.Files.Count}");
         Console.ForegroundColor = ConsoleColor.Green;
-        Console.WriteLine($"  Additions:      +{totalAdditions}");
+        Console.WriteLine($"  Additions:      +{parsed.TotalAdditions}");
         Console.ForegroundColor = ConsoleColor.Red;
-        Console.WriteLine($"  Deletions:      -{totalDeletions}");
+        Console.WriteLine($"  Deletions:      -{parsed.TotalDeletions}");
         Console.ResetColor();
-        Console.WriteLine($"  New files:      {newFiles}");
-        Console.WriteLine($"  Deleted files:  {deletedFiles}");
-        Console.WriteLine($"  Modified files: {modifiedFiles}");
+        Console.WriteLine($"  New files:      {parsed.NewFiles}");
+        Console.WriteLine($"  Deleted files:  {parsed.DeletedFiles}");
+        Console.WriteLine($"  Modified files: {parsed.ModifiedFiles}");
         Console.WriteLine();
     }
-
-    static void PrintFileBreakdown(List<FileDiff> files)
-    {
-        Console.ForegroundColor = ConsoleColor.Cyan;
-        Console.WriteLine("-------------------------------------------------");
-        Console.WriteLine("  PER-FILE BREAKDOWN");
-        Console.WriteLine("-------------------------------------------------");
-        Console.ResetColor();
-        Console.WriteLine();
-
-        Console.WriteLine($"  {"File",-45} {"Status",-10} {"+",-8} {"-",-8} {"Hunks",-6}");
-        Console.WriteLine($"  {new string('-', 45)} {new string('-', 10)} {new string('-', 8)} {new string('-', 8)} {new string('-', 6)}");
-
-        foreach (var file in files.OrderByDescending(f => f.Additions + f.Deletions))
-        {
-            var name = file.DisplayName;
-            if (name.Length > 44)
-                name = "..." + name[^41..];
-
-            var status = file.IsNew ? "NEW" : file.IsDeleted ? "DELETED" : "MODIFIED";
-
-            Console.Write($"  {name,-45} ");
-
-            Console.ForegroundColor = file.IsNew ? ConsoleColor.Green
-                : file.IsDeleted ? ConsoleColor.Red
-                : ConsoleColor.Yellow;
-            Console.Write($"{status,-10} ");
-            Console.ResetColor();
-
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.Write($"+{file.Additions,-7} ");
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.Write($"-{file.Deletions,-7} ");
-            Console.ResetColor();
-            Console.WriteLine($"{file.HunkCount,-6}");
-        }
-
-        Console.WriteLine();
-    }
-}
-
-class FileDiff
-{
-    public string? OldPath { get; set; }
-    public string? NewPath { get; set; }
-    public bool IsNew { get; set; }
-    public bool IsDeleted { get; set; }
-    public int Additions { get; set; }
-    public int Deletions { get; set; }
-    public int HunkCount { get; set; }
-
-    public string DisplayName => NewPath ?? OldPath ?? "(unknown)";
 }

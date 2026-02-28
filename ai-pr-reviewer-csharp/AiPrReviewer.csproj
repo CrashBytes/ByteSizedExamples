@@ -8,4 +8,15 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.BedrockRuntime" Version="3.*" />
+    <PackageReference Include="DotNetEnv" Version="3.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Prompts\*.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

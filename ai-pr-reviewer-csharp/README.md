@@ -10,14 +10,15 @@ A 3-part YouTube tutorial series from [CrashBytes](https://crashbytes.com) that 
 | **Part 2** — Intermediate | `intermediate` | AWS Bedrock integration with iterative prompt engineering |
 | **Part 3** — Advanced | `advanced` | CI/CD pipelines for GitHub Actions & GitLab CI |
 
-## Part 1 — Getting Started
+## Part 2 — AWS Bedrock Integration
 
-This branch (`main`) contains the beginner tutorial. You'll build a C# console app that captures and parses git diffs — no external packages required.
+This branch (`intermediate`) adds AI-powered code review using AWS Bedrock and Claude. You'll learn iterative prompt engineering by progressing through three prompt versions.
 
 ### Prerequisites
 
 - [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
 - Git
+- AWS account with Bedrock access ([enable model access](https://docs.aws.amazon.com/bedrock/latest/userguide/model-access.html) for Claude 3.5 Haiku)
 - VS Code + [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit) (recommended)
 
 **Install .NET 8 on macOS:**
@@ -26,33 +27,42 @@ This branch (`main`) contains the beginner tutorial. You'll build a C# console a
 brew install dotnet@8
 ```
 
-**Verify installation:**
+### AWS Setup
 
-```bash
-dotnet --version
-```
+1. Go to AWS Console → Bedrock → Model Access
+2. Request access to **Anthropic Claude 3.5 Haiku**
+3. Create an IAM user with `bedrock:InvokeModel` permissions
+4. Note down your Access Key ID and Secret Access Key
 
 ### Quick Start
 
 ```bash
 git clone https://github.com/CrashBytes/ByteSizedExamples.git
 cd ByteSizedExamples/ai-pr-reviewer-csharp
+git checkout intermediate
+
+# Configure AWS credentials
+cp .env.example .env
+# Edit .env with your AWS credentials
+
+# Build and run
+dotnet restore
 dotnet build
 ```
 
 ### Usage
 
-Run from inside any git repository:
-
 ```bash
-# Analyze current repo against main branch
-dotnet run
+# Review with default settings (V3 prompt, Claude 3.5 Haiku)
+dotnet run -- --repo /path/to/your/repo --branch main
 
-# Specify a different repo and branch
-dotnet run -- --repo /path/to/your/repo --branch develop
+# Try different prompt versions
+dotnet run -- --repo /path/to/repo --prompt v1    # Basic feedback
+dotnet run -- --repo /path/to/repo --prompt v2    # Categorized markdown
+dotnet run -- --repo /path/to/repo --prompt v3    # Structured JSON output
 
-# Show help
-dotnet run -- --help
+# Use a different model
+dotnet run -- --model us.anthropic.claude-3-sonnet-20240229-v1:0
 ```
 
 ### CLI Options
@@ -61,54 +71,50 @@ dotnet run -- --help
 |------|-------------|---------|
 | `--repo <path>` | Path to the git repository | Current directory |
 | `--branch <name>` | Base branch to diff against | `main` |
+| `--prompt <version>` | Prompt version: `v1`, `v2`, or `v3` | `v3` |
+| `--model <id>` | AWS Bedrock model ID | Claude 3.5 Haiku |
 | `--help`, `-h` | Show help message | — |
 
-### Example Output
+### Prompt Versions
+
+| Version | Style | Output Format |
+|---------|-------|---------------|
+| **V1** | Basic | Free-form text feedback |
+| **V2** | Structured | Categorized markdown (Bugs, Security, Style, Performance) |
+| **V3** | Production | JSON array with file, line, severity, category, message |
+
+### Project Structure
 
 ```
-=================================================
-  AI PR Reviewer — CrashBytes
-  Part 1: Git Diff Analysis
-=================================================
-
-Repository: /Users/you/your-project
-Base branch: main
-
--------------------------------------------------
-  DIFF SUMMARY
--------------------------------------------------
-  Files changed:  3
-  Additions:      +47
-  Deletions:      -12
-  New files:      1
-  Deleted files:  0
-  Modified files: 2
-
--------------------------------------------------
-  PER-FILE BREAKDOWN
--------------------------------------------------
-
-  File                                          Status     +        -        Hunks
-  --------------------------------------------- ---------- -------- -------- ------
-  src/Services/UserService.cs                   MODIFIED   +28      -8       2
-  src/Models/User.cs                            MODIFIED   +12      -4       1
-  tests/UserServiceTests.cs                     NEW        +7       -0       1
+ai-pr-reviewer-csharp/
+├── AiPrReviewer.csproj    # Project file with NuGet dependencies
+├── Program.cs             # CLI entry point and orchestration
+├── DiffParser.cs          # Git diff capture and parsing
+├── BedrockClient.cs       # AWS Bedrock Converse API wrapper
+├── Models/
+│   ├── DiffResult.cs      # Parsed diff data model
+│   └── ReviewResult.cs    # AI review response model
+└── Prompts/
+    ├── V1-BasicPrompt.txt
+    ├── V2-StructuredPrompt.txt
+    └── V3-ProductionPrompt.txt
 ```
 
 ### What You'll Learn
 
-- Setting up a C# console application with .NET 8
-- Running shell commands from C# using `System.Diagnostics.Process`
-- Parsing unified diff format (hunks, additions, deletions)
-- Building CLI tools with argument parsing
-- Structured console output with color formatting
+- Integrating with AWS Bedrock using the .NET SDK
+- Using the Converse API for model-agnostic AI calls
+- Iterative prompt engineering (basic → structured → production)
+- Loading environment variables with DotNetEnv
+- Handling token limits and large diffs
+- Structured JSON output from LLMs
 
 ### Next Steps
 
-Ready for Part 2? Check out the `intermediate` branch to add AI-powered code review with AWS Bedrock:
+Ready for Part 3? Check out the `advanced` branch to add CI/CD integration:
 
 ```bash
-git checkout intermediate
+git checkout advanced
 ```
 
 ## License
