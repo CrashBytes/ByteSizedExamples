@@ -1,0 +1,19 @@
+{
+  "name": "agent-memory-layer-typescript",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A durable agent memory layer in TypeScript: recall, summarize, evict. Companion code for the CrashBytes tutorial.",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  }
+}

@@ -30,6 +30,7 @@ A collection of tutorial companion code from [CrashBytes](https://crashbytes.com
 | [zsh-setup](./zsh-setup) | [Production Zsh Setup with Oh My Zsh](https://crashbytes.com/articles/tutorial-production-zsh-setup-oh-my-zsh-developer-productivity-2025) | Zsh, Shell |
 | [aws-bedrock-getting-started](./aws-bedrock-getting-started) | [AWS Bedrock Getting Started with Python](https://crashbytes.com/tutorials/aws-bedrock-getting-started-python-tutorial-2026) | Python, boto3, AWS Bedrock |
 | [ai-pr-reviewer-csharp](./ai-pr-reviewer-csharp) | AI PR Reviewer with AWS Bedrock (3-part YouTube series) | C#, .NET 8, AWS Bedrock, GitHub Actions |
+| [agent-memory-layer-typescript](./agent-memory-layer-typescript) | [Build a Durable Agent Memory Layer in TypeScript](https://crashbytes.com/articles/build-durable-agent-memory-layer-typescript-2026) | TypeScript, Vitest |
 
 ## Quick Start
 
