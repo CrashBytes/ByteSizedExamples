@@ -1,0 +1,19 @@
+{
+  "name": "semantic-llm-cache-typescript",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A semantic LLM cache in TypeScript: embed, nearest-neighbor lookup, threshold hit, TTL + LRU eviction. Zero runtime dependencies. Companion code for the CrashBytes tutorial.",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  }
+}
