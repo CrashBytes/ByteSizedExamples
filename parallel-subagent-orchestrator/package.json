@@ -1,0 +1,22 @@
+{
+  "name": "parallel-subagent-orchestrator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A parallel subagent orchestrator in TypeScript: fan-out, bounded concurrency, retries, schema-validated structured output, and barrier-free pipelines. Companion code for the CrashBytes tutorial.",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0",
+    "vitest": "^3.2.6"
+  }
+}
