@@ -14,10 +14,9 @@ export type CompletionFn = (prompt: string) => Promise<string>
  * before the payload and add a closing remark after it; this finds the value.
  */
 export function extractJson(text: string): string {
-  const fenced = text.match(/```(?:json)?\s*([\s\S]*?)```/i)
-  const body = fenced ? fenced[1] : text
+  const body = stripCodeFence(text)
 
-  const start = body.search(/[[{]/)
+  const start = firstIndexOf(body, '{', '[')
   if (start === -1) {
     throw new Error('no JSON value found in completion')
   }
@@ -30,6 +29,33 @@ export function extractJson(text: string): string {
   }
 
   return body.slice(start, end + 1)
+}
+
+/**
+ * Return the contents of the first ``` fenced block, or the whole string when
+ * there is no fence. Plain string scanning, deliberately not a regex: a lazy
+ * `[\s\S]*?` between two fences is exactly the backtracking shape that trips
+ * ReDoS scanners, and there is no need for it here.
+ */
+function stripCodeFence(text: string): string {
+  const open = text.indexOf('```')
+  if (open === -1) {
+    return text
+  }
+  // Skip the optional language tag (e.g. ```json) on the opening-fence line.
+  const lineEnd = text.indexOf('\n', open)
+  const contentStart = lineEnd === -1 ? open + 3 : lineEnd + 1
+  const close = text.indexOf('```', contentStart)
+  return close === -1 ? text.slice(contentStart) : text.slice(contentStart, close)
+}
+
+/** Index of whichever of `a`/`b` appears first, or -1 if neither is present. */
+function firstIndexOf(text: string, a: string, b: string): number {
+  const ia = text.indexOf(a)
+  const ib = text.indexOf(b)
+  if (ia === -1) return ib
+  if (ib === -1) return ia
+  return Math.min(ia, ib)
 }
 
 /**
