@@ -1,0 +1,38 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# build output
+dist/
+build/
+*.tsbuildinfo
+
+# expo
+.expo/
+.expo-shared/
+web-build/
+*.orig.*
+
+# native
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+ios/
+android/
+
+# env / secrets
+.env
+.env.local
+.env.*.local
+
+# test / coverage
+coverage/
+
+# editor / os
+.DS_Store
+*.log
+.idea/
+.vscode/

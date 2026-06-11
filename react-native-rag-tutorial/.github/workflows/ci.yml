@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "react-native-rag-tutorial/**"
+  pull_request:
+    paths:
+      - "react-native-rag-tutorial/**"
+
+defaults:
+  run:
+    working-directory: react-native-rag-tutorial
+
+jobs:
+  core-and-server:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      # Install only the rag-core + server workspaces — the Expo app's native
+      # toolchain isn't needed to verify the retrieval logic, which is where the
+      # value (and the tests) live.
+      - name: Install (rag-core + server)
+        run: npm install --workspace packages/rag-core --workspace server --include-workspace-root
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Test
+        run: npm test
+
+      - name: Build
+        run: npm run build

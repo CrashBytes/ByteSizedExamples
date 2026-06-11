@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Lumen RAG",
+    "slug": "lumen-rag",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#0B1020",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.crashbytes.lumenrag"
+    },
+    "android": {
+      "package": "com.crashbytes.lumenrag"
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}

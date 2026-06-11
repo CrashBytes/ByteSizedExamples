@@ -1,0 +1,19 @@
+# Runs the retrieval server. With no keys set it serves the offline pipeline
+# (hashing embeddings + extractive answers); add VOYAGE_API_KEY / ANTHROPIC_API_KEY
+# to your environment or a .env file to get full cloud quality.
+services:
+  rag-server:
+    build:
+      context: .
+      dockerfile: server/Dockerfile
+    ports:
+      - "8787:8787"
+    environment:
+      PORT: "8787"
+      CORS_ORIGINS: "*"
+      VOYAGE_API_KEY: "${VOYAGE_API_KEY:-}"
+      VOYAGE_MODEL: "${VOYAGE_MODEL:-voyage-3.5}"
+      VOYAGE_EMBED_DIM: "${VOYAGE_EMBED_DIM:-1024}"
+      ANTHROPIC_API_KEY: "${ANTHROPIC_API_KEY:-}"
+      ANTHROPIC_MODEL: "${ANTHROPIC_MODEL:-claude-opus-4-8}"
+    restart: unless-stopped

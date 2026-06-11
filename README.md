@@ -33,6 +33,7 @@ A collection of tutorial companion code from [CrashBytes](https://crashbytes.com
 | [agent-memory-layer-typescript](./agent-memory-layer-typescript) | [Build a Durable Agent Memory Layer in TypeScript](https://crashbytes.com/articles/build-durable-agent-memory-layer-typescript-2026) | TypeScript, Vitest |
 | [semantic-llm-cache-typescript](./semantic-llm-cache-typescript) | [Build a Semantic LLM Cache in TypeScript](https://crashbytes.com/articles/build-semantic-llm-cache-typescript-tutorial-2026) | TypeScript, Vitest |
 | [parallel-subagent-orchestrator](./parallel-subagent-orchestrator) | [Build a Parallel Subagent Orchestrator in TypeScript](https://crashbytes.com/articles/build-parallel-subagent-orchestrator-typescript-2026) | TypeScript, Zod, Vitest |
+| [react-native-rag-tutorial](./react-native-rag-tutorial) | [Implementing RAG in a React Native App: On-Device and Cloud Retrieval](https://crashbytes.com/tutorials/implementing-rag-react-native-on-device-cloud-retrieval) | TypeScript, React Native, Expo, Claude, Voyage |
 
 ## Quick Start
 
