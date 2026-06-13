@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@cb/rag-core": "*",
-    "expo": "~53.0.0",
+    "expo": "~56.0.11",
     "expo-sqlite": "~15.2.10",
     "expo-status-bar": "~2.2.3",
     "react": "19.0.0",
