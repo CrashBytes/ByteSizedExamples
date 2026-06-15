@@ -2,18 +2,18 @@
 # Bumped to LangChain 1.x — safe here because src/ only contains scaffolding
 # __init__.py files; no langchain.* imports exist yet. Tutorial readers
 # building from this baseline should use `langchain_core.*` import paths.
-langchain==1.3.1
-langchain-openai==1.2.2
+langchain==1.3.9
+langchain-openai==1.3.2
 langchain-community==0.4.2
 
 # LLM Providers
-openai==2.38.0
+openai==2.41.1
 
 # Tool Dependencies
 requests==2.34.2
-beautifulsoup4==4.14.3
+beautifulsoup4==4.15.0
 pandas==2.3.3  # held at 2.x for ecosystem compat
-sqlalchemy==2.0.50
+sqlalchemy==2.0.51
 psycopg2-binary==2.9.12
 
 # Vector Store and Embeddings
@@ -31,12 +31,12 @@ loguru==0.7.3
 prometheus-client==0.25.0
 
 # CLI Interface
-typer==0.25.1
+typer==0.26.7
 rich==15.0.0
 
 # Development Tools
-pytest==9.0.3
-pytest-asyncio==1.3.0
+pytest==9.1.0
+pytest-asyncio==1.4.0
 pytest-cov==7.1.0
 black==26.5.1
 mypy==2.1.0

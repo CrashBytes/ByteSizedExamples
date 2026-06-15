@@ -13,8 +13,8 @@
     "example": "tsc && node dist/examples/quickstart.js"
   },
   "devDependencies": {
-    "@types/node": "^20.14.0",
-    "typescript": "^5.5.0",
-    "vitest": "^3.2.6"
+    "@types/node": "^25.9.3",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.9"
   }
 }
