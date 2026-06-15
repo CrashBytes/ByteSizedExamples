@@ -34,6 +34,7 @@ A collection of tutorial companion code from [CrashBytes](https://crashbytes.com
 | [semantic-llm-cache-typescript](./semantic-llm-cache-typescript) | [Build a Semantic LLM Cache in TypeScript](https://crashbytes.com/articles/build-semantic-llm-cache-typescript-tutorial-2026) | TypeScript, Vitest |
 | [parallel-subagent-orchestrator](./parallel-subagent-orchestrator) | [Build a Parallel Subagent Orchestrator in TypeScript](https://crashbytes.com/articles/build-parallel-subagent-orchestrator-typescript-2026) | TypeScript, Zod, Vitest |
 | [react-native-rag-tutorial](./react-native-rag-tutorial) | [Implementing RAG in a React Native App: On-Device and Cloud Retrieval](https://crashbytes.com/tutorials/implementing-rag-react-native-on-device-cloud-retrieval) | TypeScript, React Native, Expo, Claude, Voyage |
+| [llm-eval-harness-typescript](./llm-eval-harness-typescript) | [Build an LLM-as-Judge Evaluation Harness in TypeScript](https://crashbytes.com/articles/build-llm-eval-harness-judge-typescript-2026) | TypeScript, Vitest |
 
 ## Quick Start
 
