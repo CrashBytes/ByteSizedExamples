@@ -1,13 +1,15 @@
 # Core Framework
-# LangChain held at 0.3.x — src/agents/executor.py uses
-# `from langchain.prompts import ChatPromptTemplate` and
-# `from langchain.schema import HumanMessage, AIMessage, SystemMessage`;
-# both moved to langchain_core in LangChain 1.x. Refactor required to
-# bump further; tracked as follow-up.
-langchain==0.3.30
-langchain-openai==0.3.35
-langchain-anthropic==0.3.22
-langchain-community==0.3.31
+# Bumped to LangChain 1.x to clear GHSA-gr75-jv2w-4656 (langchain),
+# PYSEC-2026-76 (langchain-openai), PYSEC-2026-77 (langchain-text-splitters).
+# langchain-classic provides compat shims for legacy import paths used in
+# src/agents/executor.py (langchain.prompts, langchain.schema).
+langchain==1.3.9
+langchain-openai==1.1.14
+langchain-anthropic==1.4.6
+langchain-community==0.4.2
+langchain-core==1.4.7
+langchain-classic==1.0.8
+langgraph==1.2.5
 fastapi==0.137.1
 uvicorn[standard]==0.49.0
 pydantic==2.13.4
