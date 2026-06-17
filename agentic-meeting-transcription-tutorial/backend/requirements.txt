@@ -13,7 +13,7 @@ openai==2.41.1
 # (vulnerable < 1.2.22). langchain 1.x requires langchain-core 1.4+ and
 # langgraph 1.x, so the stack moves forward together. Tests mock the legacy
 # langchain.prompts/schema/output_parsers import paths in conftest.py.
-langchain==1.3.2
+langchain==1.3.9
 langchain-core==1.4.7
 langchain-openai==1.3.2
 langchain-community==0.4.2
