@@ -1,0 +1,21 @@
+{
+  "name": "resilient-llm-client-typescript",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A resilient multi-provider LLM client in TypeScript: timeouts, exponential backoff with jitter, per-provider circuit breakers, and automatic failover. Companion code for the CrashBytes tutorial.",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "demo": "tsx examples/demo.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.0",
+    "vitest": "^3.2.6"
+  }
+}
