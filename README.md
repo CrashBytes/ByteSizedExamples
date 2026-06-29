@@ -37,6 +37,7 @@ A collection of tutorial companion code from [CrashBytes](https://crashbytes.com
 | [llm-eval-harness-typescript](./llm-eval-harness-typescript) | [Build an LLM-as-Judge Evaluation Harness in TypeScript](https://crashbytes.com/articles/build-llm-eval-harness-judge-typescript-2026) | TypeScript, Vitest |
 | [resilient-llm-client-typescript](./resilient-llm-client-typescript) | [Build a Resilient Multi-Provider LLM Client in TypeScript](https://crashbytes.com/articles/resilient-multi-provider-llm-client-typescript-2026) | TypeScript, Vitest |
 | [otel-mcp-agent-tracing-typescript](./otel-mcp-agent-tracing-typescript) | [Instrument an MCP Agent with OpenTelemetry Tracing in TypeScript](https://crashbytes.com/tutorials/instrument-mcp-agent-opentelemetry-tracing-typescript-2026) | TypeScript, OpenTelemetry, Vitest |
+| [agent-commit-provenance-typescript](./agent-commit-provenance-typescript) | [Build a Verifiable Agent-Commit Provenance Trail in TypeScript](https://crashbytes.com/articles/verifiable-agent-commit-provenance-typescript-2026) | TypeScript, ed25519, Vitest |
 
 ## Quick Start
 
