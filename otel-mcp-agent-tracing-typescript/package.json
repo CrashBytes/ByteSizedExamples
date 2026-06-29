@@ -1,0 +1,33 @@
+{
+  "name": "otel-mcp-agent-tracing-typescript",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Instrument an MCP-style tool-using AI agent with OpenTelemetry distributed tracing in TypeScript: a root span per agent invocation with nested child spans for each LLM call and MCP tool call, using gen_ai.* and mcp.* semantic conventions. Companion code for the CrashBytes tutorial.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch examples/demo.ts",
+    "demo": "tsx examples/demo.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@opentelemetry/api": "^1.9.1",
+    "@opentelemetry/exporter-trace-otlp-http": "^0.219.0",
+    "@opentelemetry/resources": "^2.8.0",
+    "@opentelemetry/sdk-trace-base": "^2.8.0",
+    "@opentelemetry/sdk-trace-node": "^2.8.0",
+    "@opentelemetry/semantic-conventions": "^1.41.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.0",
+    "vitest": "^3.2.6"
+  }
+}
