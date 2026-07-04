@@ -17,7 +17,10 @@ sqlalchemy==2.0.51
 psycopg2-binary==2.9.12
 
 # Vector Store and Embeddings
-chromadb==1.5.9
+# chromadb removed 2026-07-04: CVE-2026-45829 (pre-auth RCE in the Chroma
+# server API) affects every 1.x release and no patched version exists yet.
+# Nothing in src/ imports chromadb — it was a forward declaration for the
+# memory layer. Re-add (>= first patched release) when implementing it.
 sentence-transformers==5.6.0
 
 # Utilities
