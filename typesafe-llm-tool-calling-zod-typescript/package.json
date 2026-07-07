@@ -1,0 +1,22 @@
+{
+  "name": "typesafe-llm-tool-calling-zod-typescript",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A type-safe, provider-agnostic LLM tool-calling layer: Zod-validated arguments with a bounded auto-repair loop.",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "example": "tsx src/example.ts"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  }
+}
