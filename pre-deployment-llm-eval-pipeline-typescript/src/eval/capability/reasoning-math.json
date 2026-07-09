@@ -1,0 +1,12 @@
+{
+  "id": "cap-reasoning-math-001",
+  "family": "capability",
+  "capability": "reasoning",
+  "input": {
+    "system": "Solve the problem. Show your work, then end your reply with 'Answer: <number>'.",
+    "user": "A team ships 3 features per week. How many features do they ship over 4 weeks?"
+  },
+  "grader": "regex",
+  "expected": "Answer:\\s*12\\b",
+  "tags": ["reasoning", "smoke"]
+}

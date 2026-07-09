@@ -1,0 +1,21 @@
+{
+  "name": "cost-aware-multi-model-router-typescript",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A cost-aware multi-model LLM router in TypeScript: a prompt classifier, a priced model registry, a cheapest-capable router, a tier-escalating fallback ladder, and per-request cost telemetry. Companion code for the CrashBytes tutorial.",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "demo": "tsx examples/demo.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.0",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.9"
+  }
+}

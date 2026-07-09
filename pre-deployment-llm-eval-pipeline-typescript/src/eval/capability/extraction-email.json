@@ -1,0 +1,12 @@
+{
+  "id": "cap-extract-email-001",
+  "family": "capability",
+  "capability": "extraction",
+  "input": {
+    "system": "Extract the customer's email address from the message. Reply with only the email, no other text.",
+    "user": "Hi team, I tried to reset my password but the link sent to morgan.lee+billing@example.org never arrived. Can you resend? — Morgan"
+  },
+  "grader": "exact",
+  "expected": "morgan.lee+billing@example.org",
+  "tags": ["extraction", "email", "smoke"]
+}

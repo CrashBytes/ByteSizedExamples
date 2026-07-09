@@ -1,0 +1,12 @@
+{
+  "id": "cap-classify-ticket-001",
+  "family": "capability",
+  "capability": "classification",
+  "input": {
+    "system": "Classify the support ticket. Reply with JSON: {\"category\": string, \"priority\": string}. No other text.",
+    "user": "My credit card was charged twice for the same order and I want one charge refunded today."
+  },
+  "grader": "jsonShape",
+  "expected": { "category": "string", "priority": "string" },
+  "tags": ["classification", "structured-output", "smoke"]
+}

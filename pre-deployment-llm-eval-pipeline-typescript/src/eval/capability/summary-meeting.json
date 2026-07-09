@@ -1,0 +1,12 @@
+{
+  "id": "cap-summary-meeting-001",
+  "family": "capability",
+  "capability": "summarization",
+  "input": {
+    "system": "Summarize the meeting in one sentence. Be specific about what was decided.",
+    "user": "Engineering and Product met to decide the Q3 roadmap. Three projects were proposed: a payments rewrite, a search overhaul, and a mobile app refresh. After 40 minutes of discussion, the team agreed to ship the search overhaul this quarter and defer the other two to Q4."
+  },
+  "grader": "substring",
+  "expected": ["search overhaul", "Q3"],
+  "tags": ["summarization", "smoke"]
+}

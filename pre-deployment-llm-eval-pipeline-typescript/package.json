@@ -1,0 +1,23 @@
+{
+  "name": "pre-deployment-llm-eval-pipeline-typescript",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A CI-integrated pre-deployment LLM evaluation harness in TypeScript: capability, safety, and regression evals with deterministic graders and a go/no-go gate that exits non-zero to block a deploy. Companion code for the CrashBytes tutorial.",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "demo": "tsx examples/demo.ts",
+    "gate": "tsx src/cli.ts",
+    "eval": "tsx src/cli.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.0",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.9"
+  }
+}

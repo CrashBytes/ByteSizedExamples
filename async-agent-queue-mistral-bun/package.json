@@ -1,0 +1,28 @@
+{
+  "name": "async-agent-queue-mistral-bun",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A production async agent queue on Bun: submit long-running coding-agent jobs to Mistral Le Chat Work mode and OpenAI background mode, enforce per-job cost ceilings, and reconcile by poll or webhook. Companion code for the CrashBytes tutorial.",
+  "license": "MIT",
+  "module": "src/index.ts",
+  "scripts": {
+    "build": "bun build ./src/index.ts --outdir ./dist --target bun",
+    "typecheck": "tsc --noEmit",
+    "test": "bun test",
+    "demo": "bun run examples/demo.ts",
+    "serve": "bun run src/main.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.68.0",
+    "@mistralai/mistralai": "^1.10.0",
+    "hono": "^4.9.10",
+    "openai": "^6.7.0",
+    "ulid": "^3.0.1",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "bun-types": "^1.3.14",
+    "typescript": "^5.9.3"
+  }
+}

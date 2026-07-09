@@ -1,0 +1,30 @@
+name: LLM Eval Gate
+
+# Run the pre-deployment eval gate on every PR that touches prompts or eval code.
+# This project ships offline: the gate runs against a deterministic fake model,
+# so CI needs NO API keys. Point the model adapter at a real endpoint (and add
+# OPENAI_API_KEY as a secret) when you wire this to your own prompts.
+on:
+  pull_request:
+    paths:
+      - 'src/**'
+      - 'examples/**'
+  push:
+    branches: [main]
+
+jobs:
+  eval:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm install
+      - run: npm run typecheck
+      - run: npm test
+      # The gate exits non-zero when capability/safety/regression fall below
+      # policy — that is what fails the check and blocks the merge.
+      - name: Run the deploy gate
+        run: npm run gate
