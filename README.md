@@ -38,6 +38,7 @@ A collection of tutorial companion code from [CrashBytes](https://crashbytes.com
 | [resilient-llm-client-typescript](./resilient-llm-client-typescript) | [Build a Resilient Multi-Provider LLM Client in TypeScript](https://crashbytes.com/articles/resilient-multi-provider-llm-client-typescript-2026) | TypeScript, Vitest |
 | [otel-mcp-agent-tracing-typescript](./otel-mcp-agent-tracing-typescript) | [Instrument an MCP Agent with OpenTelemetry Tracing in TypeScript](https://crashbytes.com/tutorials/instrument-mcp-agent-opentelemetry-tracing-typescript-2026) | TypeScript, OpenTelemetry, Vitest |
 | [agent-commit-provenance-typescript](./agent-commit-provenance-typescript) | [Build a Verifiable Agent-Commit Provenance Trail in TypeScript](https://crashbytes.com/articles/verifiable-agent-commit-provenance-typescript-2026) | TypeScript, ed25519, Vitest |
+| [prompt-caching-cost-optimizer-typescript](./prompt-caching-cost-optimizer-typescript) | [Cut LLM Token Costs with Anthropic Prompt Caching in TypeScript](https://crashbytes.com/tutorials/cut-llm-token-costs-prompt-caching-typescript-2026) | TypeScript, Anthropic SDK, Vitest |
 
 ## Quick Start
 
