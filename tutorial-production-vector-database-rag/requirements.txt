@@ -1,5 +1,5 @@
 # Core API framework
-fastapi==0.138.2
+fastapi==0.139.0
 uvicorn[standard]==0.49.0
 pydantic==2.13.4
 pydantic-settings==2.14.2
@@ -9,13 +9,13 @@ pinecone==9.1.0  # was pinecone-client; renamed upstream
 weaviate-client==4.22.0
 
 # Embeddings
-openai==2.44.0
+openai==2.45.0
 sentence-transformers==5.6.0
-transformers==5.12.1
+transformers==5.13.1
 
 # Data processing
 pandas==3.0.3  # held at 2.x for ecosystem compat (mlflow/etc. typically <3)
-numpy==2.5.0
+numpy==2.5.1
 
 # PostgreSQL for metadata
 asyncpg==0.31.0
@@ -38,4 +38,4 @@ pytest-cov==7.1.0
 # Linting & formatting
 black==26.5.1
 flake8==7.3.0
-mypy==2.1.0
+mypy==2.3.0

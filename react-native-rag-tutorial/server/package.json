@@ -14,7 +14,7 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.109.0",
+    "@anthropic-ai/sdk": "^0.111.0",
     "@cb/rag-core": "*",
     "cors": "^2.8.6",
     "express": "^5.2.1"
@@ -22,11 +22,11 @@
   "devDependencies": {
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
-    "@types/node": "^26.1.0",
-    "@types/supertest": "^7.2.0",
+    "@types/node": "^26.1.1",
+    "@types/supertest": "^7.2.1",
     "supertest": "^7.2.2",
-    "tsx": "^4.22.4",
-    "typescript": "^6.0.3",
-    "vitest": "^4.1.9"
+    "tsx": "^4.23.1",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.10"
   }
 }
