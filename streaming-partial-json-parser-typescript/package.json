@@ -1,0 +1,21 @@
+{
+  "name": "streaming-partial-json-parser-typescript",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A tolerant streaming partial-JSON parser for LLM structured outputs: repair an incomplete token-by-token buffer and render fields progressively. Zero runtime dependencies. Companion code for the CrashBytes tutorial.",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "demo": "tsx src/demo.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.0",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.9"
+  }
+}
