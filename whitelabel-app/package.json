@@ -44,7 +44,7 @@
   },
   "overrides": {
     "uuid": "^11.0.0",
-    "shell-quote": "^1.8.4",
+    "shell-quote": "^1.10.0",
     "ws": "^7.5.11"
   },
   "private": true
