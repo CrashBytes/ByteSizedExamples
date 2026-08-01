@@ -10,18 +10,18 @@ torchaudio==2.11.0
 mpi4py==4.1.2
 
 # Experiment Tracking
-mlflow==3.14.0
+mlflow==3.15.0
 tensorboard==2.21.0
 
 # Data Processing
 numpy==2.5.1
-pandas==3.0.3  # held at 2.x because mlflow 3.13 requires pandas<3
+pandas==3.0.5  # held at 2.x because mlflow 3.13 requires pandas<3
 pillow==12.3.0
 opencv-python==5.0.0.93
 
 # Utilities
 pyyaml==6.0.3
-tqdm==4.68.4
+tqdm==4.70.0
 psutil==7.2.2
 
 # Testing
