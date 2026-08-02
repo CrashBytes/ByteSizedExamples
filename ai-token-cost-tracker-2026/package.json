@@ -43,7 +43,7 @@
   "homepage": "https://crashbytes.com/articles/ai-token-cost-tracker-chrome-extension-tutorial-2026",
   "overrides": {
     "picomatch": "^4.0.4",
-    "brace-expansion@1": "1.1.16",
-    "brace-expansion@2": "2.1.2"
+    "brace-expansion@1": "1.1.17",
+    "brace-expansion@2": "2.1.3"
   }
 }
