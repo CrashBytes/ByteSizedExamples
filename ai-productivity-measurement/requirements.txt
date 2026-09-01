@@ -1,17 +1,17 @@
 # Core dependencies
 fastapi==0.141.1
-uvicorn[standard]==0.52.0
-pydantic==2.13.4
-python-dotenv==1.2.2
+uvicorn[standard]==0.52.4
+pydantic==2.13.5
+python-dotenv==1.2.3
 
 # Database
 psycopg2-binary==2.9.12
-sqlalchemy==2.0.51
-alembic==1.18.5
+sqlalchemy==2.0.52
+alembic==1.19.1
 
 # Data processing
 pandas==3.0.5  # held at 2.x for ecosystem compat
-numpy==2.5.1
+numpy==2.5.2
 
 # Async support
 aiofiles==25.1.0
@@ -23,26 +23,26 @@ email-validator==2.3.0
 
 # Monitoring and logging
 structlog==26.1.0
-python-json-logger==4.1.0
+python-json-logger==4.2.0
 
 # Testing
 pytest==9.1.1
 pytest-asyncio==1.4.0
 pytest-cov==7.1.0
 httpx==0.28.1
-faker==40.36.0
-locust==2.46.3
+faker==40.37.0
+locust==2.46.4
 
 # Development tools
 black==26.5.1
-isort==8.0.1
+isort==9.0.1
 flake8==7.3.0
-mypy==2.3.0
-pre-commit==4.6.1
+mypy==2.3.1
+pre-commit==4.6.2
 
 # Optional: Redis for caching
 redis==8.1.0
-hiredis==3.4.0
+hiredis==3.4.1
 
 # Optional: Prometheus metrics
 prometheus-client==0.26.0
@@ -55,7 +55,7 @@ python-dateutil==2.9.0.post0
 pytz==2026.3.post1
 
 # Security
-cryptography==50.0.0
+cryptography==50.0.1
 passlib==1.7.4
 python-jose[cryptography]==3.5.0
 
