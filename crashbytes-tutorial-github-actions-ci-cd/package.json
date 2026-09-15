@@ -22,7 +22,7 @@
   "author": "CrashBytes",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^10.9.1",
+    "eslint": "^10.10.0",
     "jest": "^30.5.1",
     "nodemon": "^3.1.14"
   },

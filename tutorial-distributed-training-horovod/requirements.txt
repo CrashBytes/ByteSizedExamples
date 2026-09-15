@@ -1,5 +1,5 @@
-torch==2.13.0
-torchvision==0.28.0
+torch==2.14.0
+torchvision==0.29.0
 torchaudio==2.11.0
 
 # Distributed Training
@@ -10,18 +10,18 @@ torchaudio==2.11.0
 mpi4py==4.1.2
 
 # Experiment Tracking
-mlflow==3.15.2
+mlflow==3.16.0
 tensorboard==2.21.0
 
 # Data Processing
-numpy==2.5.2
+numpy==2.5.3
 pandas==3.0.5  # held at 2.x because mlflow 3.13 requires pandas<3
 pillow==12.3.0
 opencv-python==5.0.0.93
 
 # Utilities
 pyyaml==6.0.3
-tqdm==4.70.0
+tqdm==4.70.1
 psutil==7.2.2
 
 # Testing

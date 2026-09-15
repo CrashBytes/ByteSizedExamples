@@ -4,12 +4,12 @@
   "description": "Frontend for CrashBytes NFT Tutorial",
   "private": true,
   "dependencies": {
-    "react": "^19.2.8",
-    "react-dom": "^19.2.8",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
     "react-scripts": "5.0.1",
     "ethers": "^6.17.0",
     "react-router-dom": "^7.18.3",
-    "web-vitals": "^6.2.1"
+    "web-vitals": "^6.2.2"
   },
   "scripts": {
     "start": "react-scripts start",

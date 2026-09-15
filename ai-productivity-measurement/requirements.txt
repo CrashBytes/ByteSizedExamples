@@ -1,17 +1,17 @@
 # Core dependencies
 fastapi==0.141.1
-uvicorn[standard]==0.52.4
+uvicorn[standard]==0.53.0
 pydantic==2.13.5
 python-dotenv==1.2.3
 
 # Database
-psycopg2-binary==2.9.12
-sqlalchemy==2.0.52
-alembic==1.19.1
+psycopg2-binary==2.9.13
+sqlalchemy==2.0.53
+alembic==1.20.0
 
 # Data processing
 pandas==3.0.5  # held at 2.x for ecosystem compat
-numpy==2.5.2
+numpy==2.5.3
 
 # Async support
 aiofiles==25.1.0
@@ -30,8 +30,8 @@ pytest==9.1.1
 pytest-asyncio==1.4.0
 pytest-cov==7.1.0
 httpx==0.28.1
-faker==40.37.0
-locust==2.46.4
+faker==40.39.0
+locust==2.46.5
 
 # Development tools
 black==26.5.1

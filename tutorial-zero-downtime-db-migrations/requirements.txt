@@ -1,5 +1,5 @@
 # Database Connectivity
-psycopg2-binary==2.9.12
+psycopg2-binary==2.9.13
 asyncpg==0.31.0
 
 # Testing
