@@ -32,18 +32,18 @@
   "license": "MIT",
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "^3.0.0",
-    "@nomicfoundation/hardhat-ethers": "^4.0.15",
+    "@nomicfoundation/hardhat-ethers": "^4.2.0",
     "@nomicfoundation/hardhat-network-helpers": "^3.0.11",
     "@nomicfoundation/hardhat-toolbox": "^7.0.0",
-    "@nomicfoundation/hardhat-verify": "^3.1.0",
+    "@nomicfoundation/hardhat-verify": "^3.1.1",
     "@nomiclabs/hardhat-ethers": "^2.2.3",
     "@nomiclabs/hardhat-waffle": "^2.0.6",
     "@typechain/ethers-v6": "^0.5.1",
     "@typechain/hardhat": "^9.1.0",
-    "chai": "^6.2.2",
+    "chai": "^6.3.0",
     "ethereum-waffle": "^4.0.10",
     "ethers": "^6.17.0",
-    "hardhat": "^3.16.0",
+    "hardhat": "^3.18.0",
     "hardhat-gas-reporter": "^2.3.0",
     "solidity-coverage": "^0.8.17",
     "typechain": "^8.3.2"
@@ -51,6 +51,6 @@
   "dependencies": {
     "@openzeppelin/contracts": "^5.6.1",
     "@pinata/sdk": "^2.1.0",
-    "dotenv": "^17.4.2"
+    "dotenv": "^18.0.5"
   }
 }
