@@ -60,7 +60,8 @@
     "metro-symbolicate": "0.84.5",
     "metro-minify-terser": "0.84.5",
     "metro-babel-transformer": "0.84.5",
-    "metro-transform-plugins": "0.84.5"
+    "metro-transform-plugins": "0.84.5",
+    "brace-expansion": ">=5.0.11"
   },
   "private": true
 }
