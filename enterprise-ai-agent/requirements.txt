@@ -6,7 +6,7 @@
 #
 aiohappyeyeballs==2.7.1
     # via aiohttp
-aiohttp==3.14.3
+aiohttp==3.14.5
     # via langchain-community
 aiosignal==1.4.0
     # via aiohttp
@@ -20,13 +20,13 @@ anyio==4.15.1
     #   httpx2
     #   langsmith
     #   openai
-ast-serialize==0.11.2
+ast-serialize==0.13.0
     # via mypy
 attrs==26.1.0
     # via aiohttp
 beautifulsoup4==4.15.0
     # via -r requirements.in
-black==26.5.1
+black==26.10.1
     # via -r requirements.in
 certifi==2026.7.22
     # via
@@ -46,7 +46,7 @@ coverage[toml]==7.16.2
     # via pytest-cov
 distro==1.9.0
     # via langsmith
-filelock==4.0.8
+filelock==4.2.0
     # via
     #   huggingface-hub
     #   torch
@@ -64,7 +64,7 @@ h11==0.16.0
     # via
     #   httpcore
     #   httpcore2
-hf-xet==1.6.0
+hf-xet==1.7.0
     # via huggingface-hub
 httpcore==1.0.9
     # via httpx
@@ -93,7 +93,7 @@ idna==3.20
     #   httpx2
     #   requests
     #   yarl
-iniconfig==2.3.0
+iniconfig==2.3.1
     # via pytest
 jinja2==3.1.6
     # via torch
@@ -101,17 +101,17 @@ jiter==0.17.0
     # via openai
 joblib==1.6.0
     # via scikit-learn
-jsonpatch==1.33
+jsonpatch==1.35
     # via langchain-core
-jsonpointer==3.1.1
+jsonpointer==3.2.1
     # via jsonpatch
-langchain==1.4.3
+langchain==1.4.6
     # via -r requirements.in
 langchain-classic==1.0.8
     # via langchain-community
 langchain-community==0.4.2
     # via -r requirements.in
-langchain-core==1.6.6
+langchain-core==1.6.10
     # via
     #   langchain
     #   langchain-classic
@@ -122,25 +122,25 @@ langchain-core==1.6.6
     #   langgraph-checkpoint
     #   langgraph-prebuilt
     #   langgraph-sdk
-langchain-openai==1.6.7
+langchain-openai==1.7.2
     # via -r requirements.in
 langchain-protocol==0.0.19
     # via
     #   langchain-core
     #   langgraph-sdk
-langchain-text-splitters==1.1.2
+langchain-text-splitters==1.1.3
     # via langchain-classic
-langgraph==1.2.12
+langgraph==1.2.15
     # via langchain
-langgraph-checkpoint==4.2.0
+langgraph-checkpoint==4.3.0
     # via
     #   langgraph
     #   langgraph-prebuilt
-langgraph-prebuilt==1.1.0
+langgraph-prebuilt==1.1.1
     # via langgraph
-langgraph-sdk==0.4.5
+langgraph-sdk==0.4.7
     # via langgraph
-langsmith==0.14.2
+langsmith==0.14.9
     # via
     #   langchain-classic
     #   langchain-community
@@ -151,7 +151,7 @@ loguru==0.7.3
     # via -r requirements.in
 markdown-it-py==4.2.0
     # via rich
-markupsafe==3.0.3
+markupsafe==3.0.4
     # via jinja2
 mccabe==0.7.0
     # via flake8
@@ -159,21 +159,21 @@ mdurl==0.1.2
     # via markdown-it-py
 mpmath==1.3.0
     # via sympy
-multidict==6.9.1
+multidict==7.1.0
     # via
     #   aiohttp
     #   yarl
-mypy==2.3.1
+mypy==2.4.0
     # via -r requirements.in
 mypy-extensions==1.1.0
     # via
     #   black
     #   mypy
-narwhals==2.26.0
+narwhals==2.27.1
     # via scikit-learn
 networkx==3.7
     # via torch
-numpy==2.5.3
+numpy==2.5.4
     # via
     #   langchain-community
     #   pandas
@@ -181,11 +181,9 @@ numpy==2.5.3
     #   scipy
     #   sentence-transformers
     #   transformers
-openai==3.22.1
-    # via
-    #   -r requirements.in
-    #   langchain-openai
-orjson==3.12.0
+openai==3.31.0
+    # via langchain-openai
+orjson==3.13.0
     # via
     #   langgraph-sdk
     #   langsmith
@@ -205,9 +203,9 @@ pathspec==1.1.1
     # via
     #   black
     #   mypy
-platformdirs==4.12.2
+platformdirs==4.13.0
     # via black
-pluggy==1.6.0
+pluggy==1.7.0
     # via
     #   pytest
     #   pytest-cov
@@ -221,9 +219,8 @@ psycopg2-binary==2.9.13
     # via -r requirements.in
 pycodestyle==2.15.0
     # via flake8
-pydantic==2.13.5
+pydantic==2.14.1
     # via
-    #   -r requirements.in
     #   langchain
     #   langchain-classic
     #   langchain-core
@@ -231,11 +228,11 @@ pydantic==2.13.5
     #   langsmith
     #   openai
     #   pydantic-settings
-pydantic-core==2.46.5
+pydantic-core==2.50.1
     # via pydantic
-pydantic-settings==2.15.0
+pydantic-settings==2.16.0
     # via langchain-community
-pyflakes==4.0.1
+pyflakes==4.0.3
     # via flake8
 pygments==2.21.0
     # via
@@ -243,7 +240,6 @@ pygments==2.21.0
     #   rich
 pytest==9.1.1
     # via
-    #   -r requirements.in
     #   pytest-asyncio
     #   pytest-cov
 pytest-asyncio==1.4.0
@@ -253,14 +249,11 @@ pytest-cov==7.1.0
 python-dateutil==2.9.0.post0
     # via pandas
 python-dotenv==1.2.4
-    # via
-    #   -r requirements.in
-    #   pydantic-settings
+    # via pydantic-settings
 pytokens==0.4.1
     # via black
 pyyaml==6.0.3
     # via
-    #   -r requirements.in
     #   huggingface-hub
     #   langchain-classic
     #   langchain-community
@@ -272,7 +265,6 @@ regex==2026.9.29
     #   transformers
 requests==2.34.2
     # via
-    #   -r requirements.in
     #   langchain-classic
     #   langchain-community
     #   langsmith
@@ -281,9 +273,7 @@ requests==2.34.2
 requests-toolbelt==1.0.0
     # via langsmith
 rich==15.0.0
-    # via
-    #   -r requirements.in
-    #   typer
+    # via typer
 safetensors==0.8.0
     # via transformers
 scikit-learn==1.9.1
@@ -302,25 +292,23 @@ sniffio==1.3.1
     # via
     #   langsmith
     #   openai
-soupsieve==2.10
+soupsieve==3.0.3
     # via beautifulsoup4
-sqlalchemy==2.1.1
+sqlalchemy==2.1.4
     # via
-    #   -r requirements.in
     #   langchain-classic
     #   langchain-community
 sympy==1.14.0
     # via torch
-tenacity==9.1.4
+tenacity==9.2.1
     # via
-    #   -r requirements.in
     #   langchain-community
     #   langchain-core
 threadpoolctl==3.7.0
     # via scikit-learn
 tiktoken==0.14.0
     # via langchain-openai
-tokenizers==0.23.2
+tokenizers==0.23.3
     # via
     #   sentence-transformers
     #   transformers
@@ -331,16 +319,14 @@ tqdm==4.70.1
     #   huggingface-hub
     #   sentence-transformers
     #   transformers
-transformers==5.18.0
+transformers==5.19.0
     # via sentence-transformers
-truststore==0.10.4
+truststore==0.10.5
     # via
     #   httpcore2
     #   httpx2
-typer==0.27.2
-    # via
-    #   -r requirements.in
-    #   transformers
+typer==0.27.3
+    # via transformers
 typing-extensions==4.16.0
     # via
     #   anyio
@@ -353,6 +339,7 @@ typing-extensions==4.16.0
     #   openai
     #   pydantic
     #   pydantic-core
+    #   pydantic-settings
     #   sentence-transformers
     #   sqlalchemy
     #   torch
