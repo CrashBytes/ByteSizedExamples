@@ -48,6 +48,7 @@
     "metro-babel-transformer": "0.84.5",
     "metro-transform-plugins": "0.84.5",
     "source-map-js": ">=1.2.2",
-    "proxy-addr": "2.0.8"
+    "proxy-addr": "2.0.8",
+    "vite": "8.2.4"
   }
 }
