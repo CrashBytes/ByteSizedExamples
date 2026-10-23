@@ -28,7 +28,7 @@ beautifulsoup4==4.15.0
     # via -r requirements.in
 black==26.10.1
     # via -r requirements.in
-certifi==2026.7.22
+certifi==2026.10.19
     # via
     #   httpcore
     #   httpx

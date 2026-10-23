@@ -191,7 +191,7 @@ packaging==26.3
     #   tensorboard
 pandas==3.0.6
     # via mlflow
-pillow==12.3.0
+pillow==13.0.0
     # via
     #   matplotlib
     #   tensorboard
