@@ -69,7 +69,7 @@ docstring-parser==0.18.0
     # via anthropic
 fastapi==0.143.2
     # via -r requirements.in
-filelock==4.2.0
+filelock==4.2.1
     # via
     #   huggingface-hub
     #   tldextract

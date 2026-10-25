@@ -49,7 +49,7 @@ cryptography==50.0.2
     #   joserfc
 fastapi==0.143.2
     # via -r requirements.in
-filelock==4.2.0
+filelock==4.2.1
     # via
     #   huggingface-hub
     #   torch
